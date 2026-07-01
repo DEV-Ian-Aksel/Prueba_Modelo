@@ -1,6 +1,5 @@
 import pandas as pd
 import joblib
-import numpy as np
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -12,177 +11,226 @@ from sklearn.metrics import (
     roc_auc_score
 )
 
+# ==========================================
 # Cargar dataset
+# ==========================================
 
 print("Cargando dataset académico...")
 
-df = pd.read_csv("datos.csv", sep=";")
+df = pd.read_csv("Practica_RandomForest/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
+
+df.columns = df.columns.str.strip()
 
 print(f"Registros encontrados: {len(df)}")
-print(f"\nColumnas: {list(df.columns)}")
-print(f"\nPrimeras filas:")
-print(df.head())
+print(f"Valores en Estatus: {df['Estatus'].unique()}")
 
 # ==========================================
-# CONVERTIR VARIABLES DE TEXTO A BINARIO
+# Filtrar clases
 # ==========================================
 
-print("\n==============================")
-print("PROCESAMIENTO DE VARIABLES")
-print("==============================")
+df = df[df['Estatus'].isin(['Baja Definitiva', 'Regular'])].copy()
 
-# Buscar columnas de tipo objeto (texto)
-columnas_texto = df.select_dtypes(include=['object']).columns
+print(f"Registros tras filtro: {len(df)}")
 
-if len(columnas_texto) > 0:
-    print(f"\nEncontramos {len(columnas_texto)} variables de texto:")
-    print(list(columnas_texto))
-    print("Convirtiendo texto a binario...")
-    
+# ==========================================
+# Variable objetivo
+# ==========================================
+
+df['desertor'] = (df['Estatus'] == 'Baja Definitiva').astype(int)
+
+print(f"Desertores: {df['desertor'].sum()}")
+print(f"No desertores: {(df['desertor'] == 0).sum()}")
+
+# ==========================================
+# Eliminar columnas no útiles
+# ==========================================
+
+cols_drop = [
+    'Matricula',
+    'Estatus',
+    'Grupo',
+    'Estado Nacimiento',
+    'Municipio Nacimiento',
+    'Estado',
+    'Municipio',
+    'Bachillerato de Procedencia',
+    'Bachillerato (Estado)',
+    'Bachillerato (Municipio)'
+]
+
+df = df.drop(columns=cols_drop)
+
+# ==========================================
+# Codificar variables de texto
+# ==========================================
+
+columnas_texto = df.select_dtypes(
+    include=['object', 'string']
+).columns.tolist()
+
+print("\nColumnas de texto a codificar:")
+print(columnas_texto)
+
+for col in columnas_texto:
     le = LabelEncoder()
-    for col in columnas_texto:
-        if col != 'Target':
-            df[col] = le.fit_transform(df[col].astype(str))
-            print(f"  ✓ {col} convertida a binario")
+    df[col] = le.fit_transform(df[col].astype(str))
+    print(f"✓ {col} codificada")
 
-# Crear variable objetivo: clasificación
-print(f"\nValores en Target: {df['Target'].unique()}")
+# ==========================================
+# Separar X e Y
+# ==========================================
 
-# Convertir Target a binario: Dropout (1) vs el resto (0)
-df['desertor'] = (df['Target'] == 'Dropout').astype(int)
-
-print(f"Desertores: {(df['desertor'] == 1).sum()} estudiantes")
-print(f"No desertores: {(df['desertor'] == 0).sum()} estudiantes")
-
-# Separar variables
-
-X = df.drop(['Target', 'desertor'], axis=1)
+X = df.drop('desertor', axis=1)
 y = df['desertor']
 
-print(f"\nVariables independientes (X): {list(X.columns)}")
-print(f"Variable dependiente (y): desertor")
-print(f"Forma de X: {X.shape}")
+print("\nVariables usadas:")
+print(list(X.columns))
 
 # ==========================================
-# ESCALADO DE VARIABLES (IMPORTANTE para Regresión Logística)
+# Escalado (MUY IMPORTANTE)
 # ==========================================
 
-print("\n==============================")
-print("ESCALADO DE VARIABLES")
-print("==============================")
+print("\nEscalando variables...")
 
 scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-X_scaled = pd.DataFrame(X_scaled, columns=X.columns)
 
-print("✓ Variables escaladas (StandardScaler)")
+X_scaled = scaler.fit_transform(X)
+
+print("✓ Escalado completado")
 
 # ==========================================
-# Dividir datos
-# 80% entrenamiento
-# 20% prueba
+# División entrenamiento/prueba
 # ==========================================
 
 X_train, X_test, y_train, y_test = train_test_split(
     X_scaled,
     y,
-    test_size=0.20,
+    test_size=0.10,
     random_state=42,
     stratify=y
 )
 
-print(f"\n==============================")
-print("DIVISIÓN DE DATOS")
-print("==============================")
-print(f"Entrenamiento: {len(X_train)} registros")
-print(f"Prueba:        {len(X_test)} registros")
+print(f"\nEntrenamiento: {len(X_train)}")
+print(f"Prueba: {len(X_test)}")
 
-
-# Crear modelo Regresión Logística (hiperparámetros)
-
-print("\n==============================")
-print("CREANDO MODELO LOGÍSTICO")
-print("==============================")
+# ==========================================
+# Modelo Regresión Logística
+# ==========================================
 
 modelo = LogisticRegression(
-    max_iter=1000,
+    max_iter=2000,
     solver="lbfgs",
-    random_state=42,
     class_weight="balanced",
     C=1.0,
-    verbose=0
+    random_state=42
 )
 
-print("✓ Modelo Regresión Logística creado")
+print("\n✓ Modelo Regresión Logística creado")
 
-print("\n==============================")
-print("VALIDACIÓN CRUZADA (5-fold)")
-print("==============================")
+# ==========================================
+# Validación cruzada
+# ==========================================
 
-cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+print("\nValidando con cross-validation (5-fold)...")
 
-cv_auc = cross_val_score(modelo, X_train, y_train, cv=cv, scoring="roc_auc")
+cv = StratifiedKFold(
+    n_splits=5,
+    shuffle=True,
+    random_state=42
+)
+
+cv_auc = cross_val_score(
+    modelo,
+    X_scaled,
+    y,
+    cv=cv,
+    scoring="roc_auc"
+)
 
 print(f"AUC-ROC promedio: {cv_auc.mean():.4f} (±{cv_auc.std():.4f})")
 
-print("\n==============================")
-print("ENTRENANDO MODELO...")
-print("==============================")
+# ==========================================
+# Entrenamiento
+# ==========================================
+
+print("\nEntrenando modelo final...")
 
 modelo.fit(X_train, y_train)
 
-print("✓ Entrenamiento completado")
+print("Entrenamiento completado.")
 
+# ==========================================
 # Evaluación
+# ==========================================
 
 probs = modelo.predict_proba(X_test)
 
 predicciones = (probs[:, 1] > 0.40).astype(int)
 
 accuracy = accuracy_score(y_test, predicciones)
-auc      = roc_auc_score(y_test, probs[:, 1])
+auc = roc_auc_score(y_test, probs[:, 1])
 
-print("\n" + "="*40)
-print("RESULTADOS - REGRESIÓN LOGÍSTICA (Datos Académicos)")
-print("="*40)
+cm = confusion_matrix(y_test, predicciones)
 
-print(f"Accuracy:  {accuracy:.4f} ({accuracy*100:.2f}%)")
+tn, fp, fn, tp = cm.ravel()
+
+print("\n==============================")
+print("RESULTADOS")
+print("==============================")
+
+print(f"Accuracy:  {accuracy:.4f}")
 print(f"AUC-ROC:   {auc:.4f}")
 
 print("\nMatriz de Confusión:")
-cm = confusion_matrix(y_test, predicciones)
 print(cm)
 
-tn, fp, fn, tp = cm.ravel()
-print(f"\n  ✓ Verdaderos negativos (TN): {tn}")
-print(f"  ✓ Verdaderos positivos (TP): {tp}")
-print(f"  ✗ Falsos positivos (FP): {fp}")
-print(f"  ✗ Falsos negativos (FN): {fn}")
+print(f"\nTN (acertó no desertor): {tn}")
+print(f"TP (acertó desertor):    {tp}")
+print(f"FP (falsa alarma):       {fp}")
+print(f"FN (desertor no visto):  {fn}")
 
 print("\nReporte de Clasificación:")
-print(classification_report(y_test, predicciones, target_names=['No Desertor', 'Desertor']))
 
-print("\n==============================")
-print("COEFICIENTES DEL MODELO")
-print("==============================")
+print(
+    classification_report(
+        y_test,
+        predicciones,
+        target_names=['Regular', 'Baja Definitiva']
+    )
+)
+
+# ==========================================
+# Guardar modelo
+# ==========================================
+
+joblib.dump(modelo, "modelo_logistico.pkl")
+joblib.dump(scaler, "scaler_logistico.pkl")
+
+print("\nModelo guardado como:")
+print("modelo_logistico.pkl")
+
+print("\nScaler guardado como:")
+print("scaler_logistico.pkl")
+
+# ==========================================
+# Importancia de variables
+# ==========================================
 
 coeficientes = pd.DataFrame({
-    'variable': X.columns,
-    'coeficiente': modelo.coef_[0]
-}).sort_values('coeficiente', ascending=False)
+    "Variable": X.columns,
+    "Coeficiente": modelo.coef_[0]
+})
 
-print("\nTop 15 variables con mayor impacto POSITIVO:")
-print(coeficientes.head(15))
+coeficientes["Impacto"] = coeficientes["Coeficiente"].abs()
 
-print("\nTop 10 variables con mayor impacto NEGATIVO:")
-print(coeficientes.tail(10))
+coeficientes = coeficientes.sort_values(
+    by="Impacto",
+    ascending=False
+)
 
-print(f"\nIntercept (constante): {modelo.intercept_[0]:.4f}")
-
-# Guardar modelo y scaler
-
-joblib.dump(modelo, "modelo_logistico_academico.pkl")
-joblib.dump(scaler, "scaler_academico.pkl")
-
-print("\n✓ Modelo guardado como 'modelo_logistico_academico.pkl'")
-print("✓ Scaler guardado como 'scaler_academico.pkl'")
+print("\nImportancia de variables:")
+print(
+    coeficientes[
+        ["Variable", "Coeficiente"]
+    ].to_string(index=False)
+)
