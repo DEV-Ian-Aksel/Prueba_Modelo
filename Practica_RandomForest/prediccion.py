@@ -1,48 +1,81 @@
 import pandas as pd
 import joblib
-from sklearn.metrics import confusion_matrix, accuracy_score, roc_auc_score
 
+# ── Cargar modelo y codificadores ──
 modelo = joblib.load("modelo_randomforest.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
+# ── Cargar datos de predicción ──
 df = pd.read_csv("../Practica_modelo/alumnos_nuevos_dificil.csv")
+df.columns = df.columns.str.strip()  # limpiar espacios en nombres
 
-# Si existe columna deserto, la quitamos
-if "deserto" in df.columns:
-    X = df.drop("deserto", axis=1)
-else:
-    X = df
+print(f"Registros cargados: {len(df)}")
 
+# ── Guardar para referencia y evaluación posterior ──
+tiene_deserto = "deserto" in df.columns
+if tiene_deserto:
+    y_test = df["deserto"].copy()
+
+# ── Aplicar el MISMO procesamiento que en entrenamiento ──
+
+# Quitar las mismas columnas que se quitaron en entrenamiento
+cols_drop = [
+    'Matricula', 'Estatus', 'Grupo',
+    'Estado Nacimiento', 'Municipio Nacimiento', 'Estado', 'Municipio',
+    'Bachillerato de Procedencia', 'Bachillerato (Estado)', 'Bachillerato (Municipio)',
+    'deserto'  # Si existe, quitarla para predicción
+]
+cols_a_quitar = [col for col in cols_drop if col in df.columns]
+df_procesado = df.drop(columns=cols_a_quitar).copy()
+
+print(f"Columnas eliminadas: {cols_a_quitar}")
+
+# ── Codificar las mismas columnas de texto que se codificaron en entrenamiento ──
+for col, le in label_encoders.items():
+    if col in df_procesado.columns:
+        df_procesado[col] = le.transform(df_procesado[col].astype(str))
+        print(f"  ✓ {col} codificada")
+
+X = df_procesado
+
+# ── Realizar predicción ──
 probs = modelo.predict_proba(X)
-
 df["probabilidad_desercion"] = probs[:, 1]
 
 umbral = 0.40
+df["riesgo"] = (df["probabilidad_desercion"] >= umbral).astype(int)
 
-df["riesgo"] = (
-    df["probabilidad_desercion"] >= umbral
-).astype(int)
+print(f"\nPredicciones realizadas (umbral = {umbral})")
+print(f"  Estudiantes en riesgo: {df['riesgo'].sum()}")
+print(f"  Estudiantes sin riesgo: {(df['riesgo'] == 0).sum()}")
 
+print("\nPrimeros registros:")
 print(df.head())
 
-df.to_csv(
-    "predicciones_rf.csv",
-    index=False
-)
+# ── Guardar predicciones ──
+df.to_csv("predicciones_rf.csv", index=False)
+print("\nPredicciones guardadas en: predicciones_rf.csv")
 
-if "deserto" in df.columns:
-    acc = accuracy_score(df["deserto"], df["riesgo"])
-    auc = roc_auc_score(df["deserto"], df["probabilidad_desercion"])
-    print(f"\nAccuracy sobre datos nuevos: {acc:.4f}")
-    print(f"AUC-ROC sobre datos nuevos:  {auc:.4f}")
+# ── Evaluación (si tenemos etiqueta verdadera) ──
+if tiene_deserto:
+    from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix
+    acc = accuracy_score(y_test, df["riesgo"])
+    auc = roc_auc_score(y_test, df["probabilidad_desercion"])
+    
+    print("\n" + "="*40)
+    print("EVALUACIÓN DEL MODELO")
+    print("="*40)
+    print(f"Accuracy: {acc:.4f}")
+    print(f"AUC-ROC:  {auc:.4f}")
 
-    cm = confusion_matrix(df["deserto"], df["riesgo"])
+    cm = confusion_matrix(y_test, df["riesgo"])
     tn, fp, fn, tp = cm.ravel()
 
     print("\nMatriz de Confusión:")
     print(cm)
-    print(f"\n  Acertó que NO desertan (TN): {tn}")
-    print(f"  Acertó que SÍ desertan (TP): {tp}")
-    print(f"  Falsa alarma — dijo desertor pero no lo era (FP): {fp}")
-    print(f"  Desertor no detectado (FN): {fn}")
+    print(f"\n  TN (acertó que NO desertan):  {tn}")
+    print(f"  TP (acertó que SÍ desertan):  {tp}")
+    print(f"  FP (falsa alarma):            {fp}")
+    print(f"  FN (desertor no detectado):   {fn}")
 
-print("Predicciones guardadas como 'predicciones_rf.csv'")
+print("\n✓ Proceso completado.")

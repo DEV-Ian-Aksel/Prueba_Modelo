@@ -33,9 +33,12 @@ df = df.drop(columns=cols_drop)
 columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
 print(f"\nColumnas de texto a codificar: {columnas_texto}")
 
-le = LabelEncoder()
+# Guardar los LabelEncoders en un diccionario
+label_encoders = {}
 for col in columnas_texto:
+    le = LabelEncoder()
     df[col] = le.fit_transform(df[col].astype(str))
+    label_encoders[col] = le
     print(f"  ✓ {col} codificada")
 
 X = df.drop('desertor', axis=1)
@@ -95,8 +98,10 @@ print("\nReporte de Clasificación:")
 print(classification_report(y_test, predicciones, target_names=['Regular', 'Baja Definitiva']))
 
 # ── Guardar ──
-joblib.dump(modelo, "modelo_desercion.pkl")
-print("\nModelo guardado como: modelo_desercion.pkl")
+joblib.dump(modelo, "modelo_randomforest.pkl")
+joblib.dump(label_encoders, "label_encoders.pkl")
+print("\nModelo guardado como: modelo_randomforest.pkl")
+print("LabelEncoders guardados como: label_encoders.pkl")
 
 # ── Importancia ──
 importancias = pd.DataFrame({
