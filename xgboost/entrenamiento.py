@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import LabelEncoder
 
 print("Cargando dataset académico...")
-df = pd.read_csv("Practica_RandomForest/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
+df = pd.read_csv("xgboost/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
 df.columns = df.columns.str.strip()  # limpiar espacios en nombres
 print(f"Registros encontrados: {len(df)}")
 print(f"Valores en Estatus: {df['Estatus'].unique()}")
@@ -29,7 +29,7 @@ cols_drop = [
 ]
 df = df.drop(columns=cols_drop)
 
-# ── Codificar columnas de texto restantes (Oferta Educativa, Genero) ──
+# ── Codificar columnas de texto restantes (Oferta Educativa, Genero, Grado) ──
 columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
 print(f"\nColumnas de texto a codificar: {columnas_texto}")
 
@@ -47,7 +47,7 @@ print(f"\nVariables usadas: {list(X.columns)}")
 
 # ── Split ──
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.10, random_state=42, stratify=y
+    X, y, test_size=0.20, random_state=42, stratify=y
 )
 print(f"\nEntrenamiento: {len(X_train)} | Prueba: {len(X_test)}")
 
@@ -98,8 +98,8 @@ print("\nReporte de Clasificación:")
 print(classification_report(y_test, predicciones, target_names=['Regular', 'Baja Definitiva']))
 
 # ── Guardar ──
-joblib.dump(modelo, "modelo_desercion_xgboost.pkl")
-joblib.dump(label_encoders, "label_encoders.pkl")
+joblib.dump(modelo, "modelos_entrenados_xgboost/modelo_desercion_xgboost.pkl")
+joblib.dump(label_encoders, "modelos_entrenados_xgboost/label_encoders.pkl")
 print("\nModelo guardado como: modelo_desercion_xgboost.pkl")
 print("LabelEncoders guardados como: label_encoders.pkl")
 

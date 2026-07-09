@@ -2,11 +2,11 @@ import pandas as pd
 import joblib
 
 # ── Cargar modelo y codificadores ──
-modelo = joblib.load("modelo_randomforest.pkl")
-label_encoders = joblib.load("label_encoders.pkl")
+modelo = joblib.load("modelos_entrenados_xgboost/modelo_desercion_xgboost.pkl")
+label_encoders = joblib.load("modelos_entrenados_xgboost/label_encoders.pkl")
 
 # ── Cargar datos de predicción ──
-df = pd.read_csv("../Practica_modelo/alumnos_nuevos_dificil.csv")
+df = pd.read_csv("xgboost/Dataset_Pruebas_Predictivo_Simulado.csv")
 df.columns = df.columns.str.strip()  # limpiar espacios en nombres
 
 print(f"Registros cargados: {len(df)}")
@@ -53,8 +53,8 @@ print("\nPrimeros registros:")
 print(df.head())
 
 # ── Guardar predicciones ──
-df.to_csv("predicciones_rf.csv", index=False)
-print("\nPredicciones guardadas en: predicciones_rf.csv")
+df.to_csv("prediccion_csv_xgboost/predicciones.csv", index=False)
+print("\nPredicciones guardadas en: predicciones.csv")
 
 # ── Evaluación (si tenemos etiqueta verdadera) ──
 if tiene_deserto:

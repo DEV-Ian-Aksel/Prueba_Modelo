@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import LabelEncoder
 
 print("Cargando dataset académico...")
-df = pd.read_csv("Practica_RandomForest/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
+df = pd.read_csv("randomforest/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
 df.columns = df.columns.str.strip()
 print(f"Registros encontrados: {len(df)}")
 print(f"Valores en Estatus: {df['Estatus'].unique()}")
@@ -98,8 +98,8 @@ print("\nReporte de Clasificación:")
 print(classification_report(y_test, predicciones, target_names=['Regular', 'Baja Definitiva']))
 
 # ── Guardar ──
-joblib.dump(modelo, "modelo_randomforest.pkl")
-joblib.dump(label_encoders, "label_encoders.pkl")
+joblib.dump(modelo, "modelos_entrenados_rf/modelo_randomforest.pkl")
+joblib.dump(label_encoders, "modelos_entrenados_rf/label_encoders.pkl")
 print("\nModelo guardado como: modelo_randomforest.pkl")
 print("LabelEncoders guardados como: label_encoders.pkl")
 
