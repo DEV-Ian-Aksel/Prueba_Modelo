@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import LabelEncoder
 
 print("Cargando dataset académico...")
-df = pd.read_csv("randomforest/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
+df = pd.read_csv("randomforest/Muestra_Limpia_Predictivo_SEP-DIC2025_2.csv")
 df.columns = df.columns.str.strip()
 print(f"Registros encontrados: {len(df)}")
 print(f"Valores en Estatus: {df['Estatus'].unique()}")
@@ -47,7 +47,7 @@ print(f"\nVariables usadas: {list(X.columns)}")
 
 # ── Split ──
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.10, random_state=42, stratify=y
+    X, y, test_size=0.20, random_state=42, stratify=y
 )
 print(f"\nEntrenamiento: {len(X_train)} | Prueba: {len(X_test)}")
 

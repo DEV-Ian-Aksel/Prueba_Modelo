@@ -7,8 +7,9 @@ from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score
 from sklearn.preprocessing import LabelEncoder
 
+# carga de dataset académico
 print("Cargando dataset académico...")
-df = pd.read_csv("xgboost/Muestra_Limpia_Predictivo_SEP-DIC2025.csv")
+df = pd.read_csv("xgboost/Muestra_Limpia_Predictivo_SEP-DIC2025_2.csv")
 df.columns = df.columns.str.strip()  # limpiar espacios en nombres
 print(f"Registros encontrados: {len(df)}")
 print(f"Valores en Estatus: {df['Estatus'].unique()}")
