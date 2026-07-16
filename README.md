@@ -31,4 +31,4 @@ python xgboost/entrenamiento.py
 
 ## Prediccion
 
-Para usar el modelo entrenado es necesario usar los dos achivos dentro de la carpeta de los modelos, una contiene el modelo ya entrenado y la otra los caracteres codificado de las columnas del csv.
+Para usar el modelo entrenado es necesario usar los dos achivos dentro de la carpeta de los modelos, una contiene el modelo ya entrenado y la otra los caracteres codificado de las columnas del csv.     +

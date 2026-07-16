@@ -14,7 +14,7 @@ df.columns = df.columns.str.strip()  # limpiar espacios en nombres
 print(f"Registros encontrados: {len(df)}")
 print(f"Valores en Estatus: {df['Estatus'].unique()}")
 
-# ── Filtrar solo las dos clases que nos interesan ──
+# ── Filtrar solo las dos clases que importan
 df = df[df['Estatus'].isin(['Baja Definitiva', 'Regular'])].copy()
 print(f"Registros tras filtro (Baja Definitiva + Regular): {len(df)}")
 
@@ -22,7 +22,7 @@ print(f"Registros tras filtro (Baja Definitiva + Regular): {len(df)}")
 df['desertor'] = (df['Estatus'] == 'Baja Definitiva').astype(int)
 print(f"Desertores: {df['desertor'].sum()}  |  No desertores: {(df['desertor'] == 0).sum()}")
 
-# ── Quitar columnas que no usaremos ──
+# ── Quitar columnas que no se usarán ──
 cols_drop = [
     'Matricula', 'Estatus', 'Grupo',
     'Estado Nacimiento', 'Municipio Nacimiento', 'Estado', 'Municipio',
@@ -30,7 +30,28 @@ cols_drop = [
 ]
 df = df.drop(columns=cols_drop)
 
-# ── Codificar columnas de texto restantes (Oferta Educativa, Genero, Grado) ──
+# ── Codificar columnas de texto restantes (Oferta Educativa, Genero) ──
+columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
+print(f"\nColumnas de texto a codificar: {columnas_texto}")
+
+orden_grado = {
+    'primero':        1,
+    'segundo':        2,
+    'tercero':        3,
+    'cuarto':         4,
+    'quinto':         5,
+    'sexto':          6,
+    'séptimo':        7,
+    'octavo':         8,
+    'noveno':         9,
+    'décimo':         10,
+    'undécimo':       11,
+    'duodécimo':      12,
+    'décimo tercero': 13
+}
+
+df['Grado'] = df['Grado'].str.strip().str.lower().map(orden_grado)
+
 columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
 print(f"\nColumnas de texto a codificar: {columnas_texto}")
 
@@ -40,7 +61,10 @@ for col in columnas_texto:
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col].astype(str))
     label_encoders[col] = le
-    print(f"  ✓ {col} codificada")
+
+    print(f"\nCodificación de {col}:")
+    for i, clase in enumerate(le.classes_):
+        print(f"  {clase} -> {i}")
 
 X = df.drop('desertor', axis=1)
 y = df['desertor']
@@ -111,3 +135,5 @@ importancias = pd.DataFrame({
 }).sort_values('Importancia', ascending=False)
 print("\nImportancia de variables:")
 print(importancias.to_string(index=False))
+
+print(df.groupby(['Grado', 'desertor']).size().unstack(fill_value=0))

@@ -33,13 +33,37 @@ df = df.drop(columns=cols_drop)
 columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
 print(f"\nColumnas de texto a codificar: {columnas_texto}")
 
+orden_grado = {
+    'primero':        1,
+    'segundo':        2,
+    'tercero':        3,
+    'cuarto':         4,
+    'quinto':         5,
+    'sexto':          6,
+    'séptimo':        7,
+    'octavo':         8,
+    'noveno':         9,
+    'décimo':         10,
+    'undécimo':       11,
+    'duodécimo':      12,
+    'décimo tercero': 13
+}
+
+df['Grado'] = df['Grado'].str.strip().str.lower().map(orden_grado)
+
+columnas_texto = df.select_dtypes(include=['object']).columns.tolist()
+print(f"\nColumnas de texto a codificar: {columnas_texto}")
+
 # Guardar los LabelEncoders en un diccionario
 label_encoders = {}
 for col in columnas_texto:
     le = LabelEncoder()
     df[col] = le.fit_transform(df[col].astype(str))
     label_encoders[col] = le
-    print(f"  ✓ {col} codificada")
+
+    print(f"\nCodificación de {col}:")
+    for i, clase in enumerate(le.classes_):
+        print(f"  {clase} -> {i}")
 
 X = df.drop('desertor', axis=1)
 y = df['desertor']

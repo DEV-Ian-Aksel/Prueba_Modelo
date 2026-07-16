@@ -1,401 +1,401 @@
 Matricula,Oferta Educativa,Grado,Genero,Promedio Final,Promedio Cuatrimestre Anterior,Promedio Bachillerato,probabilidad_desercion,riesgo
-1763746926,Enfermería,sexto ,Hombre,9.3,8.8,9.0,0.011675137003446487,0
-1774377254,Enfermería,undécimo ,Mujer,9.5,9.8,8.1,0.014826428872598772,0
-1717514095,Criminalística y Ciencias Forenses,tercero ,Mujer,9.0,8.1,8.4,5.2910052910052905e-05,0
-1780926382,Negocios y Mercadotecnia,tercero ,Mujer,9.1,9.7,9.0,0.014380491248783208,0
-1742648613,Enfermería,noveno ,Mujer,9.0,9.1,8.3,0.03694354593979935,0
-1781989413,Enfermería,tercero ,Mujer,9.1,10.0,8.8,0.0009149933946298882,0
-1767203173,Médico Cirujano y Partero,noveno ,Mujer,9.6,9.2,9.1,0.2605009030540829,0
-1715593519,Industrial,noveno ,Hombre,9.2,8.7,8.6,0.017641551917215146,0
-1719376874,Salud Reproductiva y Partería,sexto ,Hombre,9.5,9.4,8.7,0.006087953615285342,0
-1714798808,Innovación de Negocios y Mercadotecnia,duodécimo ,Mujer,8.9,9.2,8.4,0.034953886766439686,0
-1768707720,Mecatrónica,undécimo ,Hombre,9.1,8.7,8.6,0.002282872455123634,0
-1772204969,Enfermería,tercero ,Mujer,9.5,10.0,7.9,0.0536939686548851,0
-1786871066,Criminalística y Ciencias Forenses,noveno ,Mujer,9.0,8.6,8.3,0.07302041806061471,0
-1774275202,Mecatrónica,primero ,Hombre,9.5,7.8,7.8,0.5868982524166333,1
-1742049668,Terapia Física,undécimo ,Mujer,9.0,10.0,8.0,0.03228529215910058,0
-1799260334,Mecatrónica,tercero ,Mujer,9.1,8.8,7.4,0.011568148311956362,0
-1766362519,Enfermería,duodécimo ,Mujer,9.7,9.0,8.6,0.030122135184473067,0
-1784539686,Criminalística y Ciencias Forenses,sexto ,Mujer,9.1,9.0,9.4,0.030254453796813748,0
-1700883826,Contaduría,tercero ,Hombre,9.3,8.8,8.2,0.008502391875610731,0
-1757840297,Negocios y Mercadotecnia,tercero ,Hombre,9.4,8.7,9.0,0.008092556416365939,0
-1757830093,Contaduría,tercero ,Hombre,9.3,8.6,9.1,0.00997881703011343,0
-1761204070,Mecatrónica,primero ,Hombre,9.3,9.2,7.8,0.8410820784531805,1
-1701156400,Enfermería,tercero ,Mujer,9.2,8.9,7.9,0.010232354033665826,0
-1721495636,Enfermería,tercero ,Mujer,8.8,9.6,9.0,0.006012302481968396,0
-1770574315,Innovación de Negocios y Mercadotecnia,primero ,Mujer,9.3,9.5,8.4,0.7717511020017785,1
-1750852332,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.6,7.8,0.0032494331065759637,0
-1792236380,Enfermería,tercero ,Mujer,9.5,9.2,8.1,0.0007877931387608807,0
-1776170881,Industrial,tercero ,Hombre,9.7,8.9,8.7,0.002291376589622204,0
-1769269830,Terapia Física,tercero ,Mujer,8.7,8.6,8.1,0.00876800587326903,0
-1710446882,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.7,9.6,7.0,0.13467523388825117,0
-1722375707,Enfermería,undécimo ,Mujer,9.1,9.1,8.3,0.02459961277481015,0
-1730735732,Mecatrónica,tercero ,Hombre,9.2,8.9,8.4,0.020973763039900777,0
-1782811152,Negocios y Mercadotecnia,tercero ,Hombre,9.0,8.7,8.5,0.00025974025974025974,0
-1783030437,Terapia Física,undécimo ,Mujer,9.3,8.6,9.2,0.002170515904532488,0
-1776200256,Innovación de Negocios y Mercadotecnia,undécimo ,Mujer,9.3,10.0,8.5,0.0018117622658819625,0
-1755525714,Criminalística y Ciencias Forenses,sexto ,Hombre,9.6,9.4,8.6,0.0011455108359133127,0
-1700423200,Terapia Física,noveno ,Mujer,9.0,8.5,9.1,0.12293769004674808,0
-1745284704,Enfermería,sexto ,Mujer,9.7,9.3,8.5,0.0039088215237644205,0
-1720346021,Terapia Física,noveno ,Hombre,9.4,9.8,9.7,0.17036760875983084,0
-1789592771,Enfermería,noveno ,Hombre,9.3,9.3,7.8,0.38737645577336016,0
-1756191907,Contaduría,sexto ,Mujer,9.2,10.0,8.0,0.03282536503628148,0
-1708569692,Industrial,décimo tercero,Hombre,9.1,8.3,8.8,0.14859194674232984,0
-1718796833,Contaduría,tercero ,Hombre,9.2,8.0,9.2,0.02065819669263829,0
-1707261165,Terapia Física,primero ,Mujer,9.3,9.3,8.4,0.7065692170628015,1
-1728959950,Enfermería,tercero ,Hombre,9.2,9.3,7.9,0.02464637030786099,0
-1739554074,Terapia Física,primero ,Hombre,9.0,7.2,9.5,0.462674797247243,1
-1746353267,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.3,8.8,8.1,0.19520584040265598,0
-1731920729,Salud Reproductiva y Partería,primero ,Hombre,9.0,8.6,8.7,0.4386979394855989,1
-1769494684,Terapia Física,tercero ,Mujer,9.3,8.3,9.2,0.004025924734731234,0
-1709901587,Mecatrónica,noveno ,Mujer,9.2,8.6,8.2,0.06485648517845545,0
-1740645629,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.4,9.5,8.1,0.17654313412574563,0
-1724584034,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.5,8.6,8.2,0.003160439399204471,0
-1799463046,Industrial,noveno ,Mujer,9.5,8.6,9.0,0.17213773763618484,0
-1799543139,Contaduría,noveno ,Hombre,9.3,8.2,9.1,0.2074960434862252,0
-1792907437,Negocios y Mercadotecnia,sexto ,Hombre,9.4,9.9,8.5,0.009643494085100568,0
-1761037120,Contaduría,sexto ,Hombre,9.1,9.4,9.5,0.00855895193872178,0
-1702420079,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.4,7.7,8.5,0.044217803207796766,0
-1712126097,Terapia Física,tercero ,Hombre,9.5,8.6,9.2,0.007778623435766293,0
-1799912863,Criminalística y Ciencias Forenses,duodécimo ,Mujer,8.8,9.5,8.3,0.06037693690157584,0
-1794173848,Terapia Física,undécimo ,Mujer,9.3,9.9,9.8,0.03448233116090259,0
-1739487202,Contaduría,duodécimo ,Mujer,9.6,9.7,9.4,0.1284845285433521,0
-1731067640,Enfermería,tercero ,Hombre,9.1,9.0,8.4,0.025228379390583155,0
-1766828003,Tecnologías de la Información e Innovación Digital,décimo tercero,Mujer,9.1,8.0,9.3,0.192522935543067,0
-1785203828,Mecatrónica,primero ,Hombre,9.1,9.7,9.3,0.5722252094805369,1
-1763294428,Criminalística y Ciencias Forenses,undécimo ,Mujer,8.8,9.0,9.3,0.005596766451938866,0
-1734346864,Enfermería,noveno ,Hombre,9.3,9.2,7.1,0.4230429088500873,1
-1799694261,Innovación de Negocios y Mercadotecnia,sexto ,Hombre,9.2,9.1,8.9,0.014773344787185411,0
-1789905679,Industrial,primero ,Hombre,9.3,8.4,8.8,0.6595428424277889,1
-1781914452,Mecatrónica,noveno ,Hombre,9.4,9.4,8.8,0.19568665129200496,0
-1770530683,Terapia Física,tercero ,Hombre,9.0,9.3,8.6,0.003040804354337809,0
-1735256992,Criminalística y Ciencias Forenses,sexto ,Hombre,9.3,8.9,8.6,0.007793560928287629,0
-1762193786,Enfermería,segundo ,Hombre,9.4,9.4,9.2,0.5728139722014621,1
-1702808705,Terapia Física,primero ,Hombre,9.1,8.4,8.8,0.599665718227553,1
-1745945443,Salud Reproductiva y Partería,cuarto ,Hombre,9.4,9.0,8.6,0.10516697009152146,0
-1722381800,Mecatrónica,noveno ,Mujer,9.3,9.2,9.1,0.25728703949769954,0
-1745526897,Contaduría,tercero ,Mujer,9.0,8.1,8.7,0.0006581048581048581,0
-1757479397,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.3,9.1,8.8,0.010876882075079943,0
-1791483508,Contaduría,tercero ,Mujer,9.1,9.6,9.5,0.004919758410024555,0
-1704325124,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.4,9.0,8.3,0.006602464416173326,0
-1781971467,Criminalística y Ciencias Forenses,sexto ,Hombre,9.2,9.1,7.7,0.021169893753927367,0
-1705010498,Médico Cirujano y Partero,tercero ,Hombre,8.8,9.5,8.5,0.006416364106618257,0
-1750018204,Enfermería,sexto ,Hombre,9.3,8.9,8.6,0.007891171225979593,0
-1765044524,Médico Cirujano y Partero,segundo ,Mujer,9.3,9.0,8.9,0.6036394500666329,1
-1764449920,Industrial,sexto ,Mujer,8.9,8.5,8.6,0.0020130026339703756,0
-1748023007,Enfermería,décimo tercero,Mujer,9.5,9.2,8.9,0.1975334694517491,0
-1717699155,Contaduría,noveno ,Mujer,9.4,9.0,9.9,0.2965151164980107,0
-1721054806,Innovación de Negocios y Mercadotecnia,tercero ,Mujer,9.0,9.5,8.9,0.00907675260241048,0
-1744126515,Contaduría,sexto ,Mujer,9.0,9.5,9.0,0.010851246491719861,0
-1711121385,Tecnologías de la Información e Innovación Digital,tercero ,Hombre,9.2,9.6,8.4,0.004345999202376081,0
-1707692043,Médico Cirujano y Partero,sexto ,Hombre,9.0,8.9,7.7,0.016345799563844677,0
-1797090374,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.4,7.9,7.2,0.02214599442427109,0
-1715412866,Criminalística y Ciencias Forenses,tercero ,Mujer,9.3,9.6,8.2,0.0010189531554178654,0
-1757373782,Médico Cirujano y Partero,tercero ,Mujer,8.9,9.4,7.1,0.051296742706406585,0
-1721922441,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.8,8.8,0.0007650507650507651,0
-1795450489,Enfermería,cuarto ,Hombre,9.6,9.5,8.3,0.12108690029604433,0
-1710989885,Enfermería,primero ,Mujer,9.7,8.3,7.8,0.5427100769830582,1
-1770930702,Contaduría,undécimo ,Mujer,9.4,9.8,8.6,0.0001721664275466284,0
-1737596719,Médico Cirujano y Partero,tercero ,Mujer,9.2,9.0,8.1,0.02427815940782147,0
-1772626195,Industrial,primero ,Mujer,9.1,8.7,8.7,0.6154878060928202,1
-1722864968,Negocios y Mercadotecnia,primero ,Hombre,9.4,8.8,8.9,0.6304180450514645,1
-1706598038,Enfermería,noveno ,Hombre,9.3,9.0,8.1,0.22299945499411905,0
-1739281351,Terapia Física,quinto ,Hombre,8.7,9.2,8.4,0.518240126233868,1
-1777029845,Innovación de Negocios y Mercadotecnia,sexto ,Mujer,9.5,9.2,8.6,0.004361372912801484,0
-1739175480,Terapia Física,segundo ,Mujer,9.6,8.9,7.7,0.5561947427705531,1
-1745455637,Terapia Física,décimo tercero,Mujer,9.5,9.3,8.6,0.05245598355849767,0
-1768622743,Enfermería,tercero ,Hombre,8.9,9.2,7.7,0.008156634154091031,0
-1775133550,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.8,8.8,0.0007650507650507651,0
-1775281792,Médico Cirujano y Partero,cuarto ,Mujer,8.7,8.7,8.3,0.13783428624166158,0
-1745953230,Terapia Física,tercero ,Mujer,9.7,9.5,7.7,0.02625800918658062,0
-1730095432,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.1,9.5,8.2,0.07860491579179545,0
-1705179469,Negocios y Mercadotecnia,cuarto ,Mujer,9.9,9.2,8.2,0.19362679668547647,0
-1717130480,Energías Renovables,noveno ,Mujer,9.8,9.7,9.1,0.17944249932751546,0
-1787562041,Enfermería,tercero ,Mujer,9.0,8.0,8.6,0.0008602985169805446,0
-1747812207,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.0,8.8,8.0,0.24668425075833295,0
-1757842444,Criminalística y Ciencias Forenses,tercero ,Mujer,9.4,8.5,9.4,0.004697449441316554,0
-1729389817,Innovación de Negocios y Mercadotecnia,noveno ,Hombre,8.7,10.0,8.8,0.06931559263864673,0
-1776725060,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.1,9.6,8.3,0.0037603810601856205,0
-1780061477,Enfermería,noveno ,Hombre,9.1,9.1,7.6,0.3517710886200658,0
-1726255262,Negocios y Mercadotecnia,noveno ,Hombre,9.8,9.6,8.3,0.2632487949514512,0
-1779303635,Salud Reproductiva y Partería,undécimo ,Mujer,9.3,9.8,8.4,0.0009066541620343628,0
-1780460351,Enfermería,noveno ,Hombre,9.1,9.8,8.7,0.006564941738095586,0
-1794905537,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.0,9.7,8.8,0.06935413542801569,0
-1737743122,Terapia Física,undécimo ,Hombre,9.5,9.0,8.9,0.002152938169901234,0
-1733943975,Contaduría,tercero ,Hombre,9.1,8.9,7.6,0.04193296520803976,0
-1757699718,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.2,8.6,8.6,0.03223832582356921,0
-1707334747,Mecatrónica,tercero ,Hombre,9.0,9.5,8.4,0.005348012956634455,0
-1790985278,Criminalística y Ciencias Forenses,segundo ,Hombre,8.8,9.1,10.0,0.4653510682333469,1
-1756044935,Innovación de Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.9,8.5,0.003463902815588436,0
-1768056274,Mecatrónica,sexto ,Mujer,9.1,8.9,8.1,0.038231447874823674,0
-1784893849,Negocios y Mercadotecnia,undécimo ,Hombre,9.2,10.0,8.6,0.004196823774629224,0
-1782389516,Salud Reproductiva y Partería,sexto ,Hombre,9.2,9.7,8.5,0.009179692101415147,0
-1711025786,Salud Reproductiva y Partería,tercero ,Mujer,9.2,10.0,7.4,0.06759245112479616,0
-1735470059,Enfermería,noveno ,Mujer,9.1,9.5,8.7,0.03253020447783418,0
-1714060380,Criminalística y Ciencias Forenses,undécimo ,Mujer,9.6,9.2,8.3,0.00139012987012987,0
-1735570606,Médico Cirujano y Partero,undécimo ,Mujer,9.5,9.2,8.5,0.012488256841198017,0
-1727207210,Enfermería,sexto ,Mujer,9.2,8.6,8.0,0.0052723905723905725,0
-1721150152,Mecatrónica,noveno ,Hombre,9.3,8.4,7.9,0.2697037747557208,0
-1730766299,Energía y Desarrollo Sostenible,sexto ,Mujer,9.1,9.5,9.0,0.020333949643979513,0
-1721066167,Enfermería,undécimo ,Hombre,8.4,8.6,9.1,0.007527812621797585,0
-1708627675,Negocios y Mercadotecnia,noveno ,Mujer,9.2,9.3,8.7,0.12004959593697109,0
-1784220712,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.3,9.8,7.5,0.31679649920213043,0
-1777334546,Contaduría,tercero ,Mujer,8.7,8.8,8.8,0.004869019465636007,0
-1716960642,Enfermería,tercero ,Mujer,9.4,10.0,7.5,0.07124237263186053,0
-1723110439,Enfermería,tercero ,Hombre,9.1,8.6,8.1,0.005685393512243606,0
-1712663445,Negocios y Mercadotecnia,tercero ,Hombre,9.3,9.8,9.0,0.015328553156358601,0
-1781423957,Industrial,sexto ,Hombre,9.2,9.4,8.9,0.003955862640348901,0
-1709760120,Salud Reproductiva y Partería,noveno ,Hombre,9.6,9.9,8.7,0.058643025397869,0
-1787186855,Contaduría,tercero ,Hombre,9.3,8.5,9.2,0.011498091406530665,0
-1739916451,Enfermería,segundo ,Mujer,9.5,10.0,8.8,0.43340833304639187,1
-1749385104,Mecatrónica,tercero ,Hombre,9.6,9.1,7.4,0.027793303521874948,0
-1785964954,Terapia Física,undécimo ,Hombre,8.9,9.6,8.3,0.011253703563588032,0
-1785718469,Tecnologías de la Información e Innovación Digital,noveno ,Mujer,9.0,10.0,8.5,0.010226532767053759,0
-1709491502,Industrial,sexto ,Hombre,9.4,8.8,8.4,0.021748553046643478,0
-1743294730,Mecatrónica,tercero ,Mujer,9.1,9.7,8.2,0.011076351036762442,0
-1767251675,Desarrollo y gestión de software,noveno ,Mujer,9.2,8.7,7.9,0.22824937441731916,0
-1754709332,Enfermería,sexto ,Hombre,9.6,10.0,9.8,0.015065712065712066,0
-1723018914,Mecatrónica,segundo ,Mujer,9.1,8.7,8.3,0.45569255792979263,1
-1788700879,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,9.2,9.8,0.23941116204959387,0
-1786221425,Tecnologías de la Información e Innovación Digital,segundo ,Hombre,9.0,9.4,7.9,0.5026803378686233,1
-1712400986,Terapia Física,tercero ,Mujer,9.9,9.6,8.9,0.06702383690809165,0
-1707274064,Mecatrónica,undécimo ,Mujer,9.2,10.0,8.6,0.0014404887485005282,0
-1755781898,Innovación de Negocios y Mercadotecnia,noveno ,Hombre,8.8,8.9,8.0,0.26992109442999535,0
-1799606945,Enfermería,undécimo ,Mujer,8.7,9.8,8.2,0.009137654653490467,0
-1796468271,Criminalística y Ciencias Forenses,tercero ,Mujer,9.0,10.0,8.5,0.0001721664275466284,0
-1761362196,Salud Reproductiva y Partería,undécimo ,Hombre,9.2,9.3,8.0,0.014736959555326506,0
-1707212479,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.5,8.8,8.3,0.10589688570314361,0
-1766670358,Terapia Física,undécimo ,Mujer,9.5,8.1,7.2,0.01708905083905084,0
-1710916291,Terapia Física,sexto ,Hombre,9.2,10.0,8.9,0.008871268131129715,0
-1761263048,Enfermería,décimo tercero,Hombre,9.1,9.0,9.2,0.26856250448488483,0
-1778986340,Industrial,tercero ,Mujer,9.3,8.6,8.7,0.0047531103709893665,0
-1702713148,Contaduría,primero ,Mujer,8.7,8.4,9.7,0.5627797159798559,1
-1704808739,Enfermería,primero ,Mujer,9.8,8.6,8.9,0.5891337920553851,1
-1744567718,Criminalística y Ciencias Forenses,primero ,Hombre,9.4,9.7,9.1,0.5500492782567862,1
-1763373542,Criminalística y Ciencias Forenses,noveno ,Mujer,9.5,9.8,9.2,0.1307674484459188,0
-1791898092,Terapia Física,sexto ,Mujer,8.9,9.6,7.0,0.08595982724119869,0
-1775445608,Diseño Digital y Producción Audiovisual,séptimo ,Hombre,9.6,9.2,8.7,0.01319047655594906,0
-1723909211,Criminalística y Ciencias Forenses,tercero ,Hombre,9.1,8.4,7.7,0.012689964502547427,0
-1707225788,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,8.7,7.8,0.19238967918623184,0
-1734187282,Mecatrónica,undécimo ,Mujer,9.2,8.5,7.9,0.0013859410430839,0
-1781987841,Terapia Física,undécimo ,Mujer,9.2,9.5,8.3,0.016166923324335343,0
-1775749154,Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.5,8.8,0.0006878306878306878,0
-1740172927,Contaduría,undécimo ,Hombre,9.0,8.7,8.7,0.0006018518518518518,0
-1771705727,Contaduría,primero ,Hombre,8.9,9.1,8.5,0.5336223985531461,1
-1708849356,Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.2,8.9,0.0006878306878306878,0
-1749826994,Contaduría,décimo tercero,Mujer,9.1,9.2,8.9,0.23733972261645497,0
-1761316108,Innovación de Negocios y Mercadotecnia,tercero ,Hombre,8.8,9.1,8.7,0.00717483368366216,0
-1707172526,Negocios y Mercadotecnia,sexto ,Mujer,9.0,9.9,7.5,0.05363248648626008,0
-1798145333,Contaduría,tercero ,Mujer,9.6,8.7,8.1,0.0042630471089550375,0
-1713050950,Industrial,tercero ,Mujer,9.5,8.4,8.5,0.013357194798860385,0
-1759711323,Contaduría,décimo tercero,Mujer,8.9,8.9,8.9,0.17278220741943195,0
-1760529691,Terapia Física,sexto ,Hombre,9.5,8.5,7.8,0.02077018183068603,0
-1713028663,Terapia Física,sexto ,Mujer,8.6,9.2,8.5,0.006222378810202745,0
-1713520744,Enfermería,tercero ,Mujer,9.9,8.1,7.6,0.019483457650794154,0
-1735284209,Tecnologías de la Información e Innovación Digital,noveno ,Mujer,9.6,8.8,9.1,0.1615487456802485,0
-1751208717,Mecatrónica,noveno ,Hombre,9.1,8.6,8.6,0.04339863106273306,0
-1780471362,Médico Cirujano y Partero,sexto ,Mujer,9.3,9.5,7.7,0.04823858809828419,0
-1747923860,Contaduría,sexto ,Mujer,8.8,8.7,7.7,0.020397551737335016,0
-1733858554,Diseño Digital y Producción Audiovisual,décimo tercero,Mujer,9.3,8.1,8.7,0.04064698349545985,0
-1741770741,Enfermería,sexto ,Mujer,9.2,9.0,9.2,0.006364752900337366,0
-1715805875,Negocios y Mercadotecnia,noveno ,Mujer,9.0,9.4,7.9,0.26365596212326614,0
-1727808553,Contaduría,tercero ,Hombre,9.1,9.0,8.9,0.02486976465891078,0
-1709710100,Energías Renovables,primero ,Mujer,9.1,8.8,8.2,0.6374804628502103,1
-1780395615,Terapia Física,sexto ,Mujer,8.9,8.8,8.9,0.0014244901867385498,0
-1769911960,Contaduría,noveno ,Hombre,9.0,9.2,8.9,0.1507220022506322,0
-1772585868,Negocios y Mercadotecnia,tercero ,Mujer,8.8,8.6,8.6,0.002369307106149211,0
-1717713633,Negocios y Mercadotecnia,quinto ,Mujer,9.5,9.0,7.5,0.7270285264403635,1
-1759592891,Contaduría,sexto ,Mujer,8.9,9.6,8.9,0.0015213727767529775,0
-1756829263,Salud Reproductiva y Partería,undécimo ,Hombre,8.9,8.4,8.8,0.0012847866419294991,0
-1776462151,Terapia Física,sexto ,Mujer,9.5,9.1,8.7,0.009251552247812109,0
-1725478292,Mecatrónica,tercero ,Hombre,9.3,8.1,8.6,0.022611568787181305,0
-1725060497,Negocios y Mercadotecnia,primero ,Hombre,9.5,9.3,8.0,0.753985631894238,1
-1734337102,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,9.5,8.6,9.1,0.004516005562088512,0
-1783941311,Industrial,primero ,Hombre,9.8,9.8,9.0,0.5117814058539448,1
-1735692295,Criminalística y Ciencias Forenses,décimo tercero,Mujer,9.2,8.3,7.9,0.22091210266651354,0
-1721740297,Terapia Física,primero ,Mujer,8.8,9.4,9.2,0.5590807804414147,1
-1736916445,Nanotecnología,tercero ,Hombre,9.3,9.9,8.6,0.005539333505794419,0
-1785768316,Contaduría,primero ,Hombre,9.0,8.6,8.6,0.4845580459822211,1
-1750881244,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,8.9,8.7,8.4,0.00257561360383941,0
-1707736925,Enfermería,décimo tercero,Mujer,9.3,8.6,8.4,0.032218865041657725,0
-1799804370,Negocios y Mercadotecnia,undécimo ,Mujer,9.5,8.9,9.2,0.003824175824175824,0
-1785384440,Salud Reproductiva y Partería,primero ,Hombre,9.0,9.5,9.1,0.5884602353859406,1
-1707753118,Desarrollo y gestión de software,noveno ,Mujer,9.6,8.8,9.0,0.18071809677555017,0
-1743906254,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,8.5,8.6,0.04554313428892999,0
-1744002934,Mecatrónica,tercero ,Mujer,9.2,8.0,9.0,0.005601309858575043,0
-1717181867,Contaduría,primero ,Mujer,9.4,10.0,8.0,0.5941983640165224,1
-1716536319,Enfermería,sexto ,Hombre,9.1,10.0,8.8,0.0012007076803441743,0
-1767140675,Mecatrónica,noveno ,Mujer,8.7,9.5,8.4,0.022050345702811773,0
-1745106699,Mecatrónica,primero ,Hombre,9.5,8.7,7.4,0.5819109569702009,1
-1711097707,Médico Cirujano y Partero,noveno ,Mujer,9.0,9.6,7.6,0.27507007038277226,0
-1783002448,Diseño Digital y Producción Audiovisual,tercero ,Hombre,9.5,9.7,8.1,0.023482921840064695,0
-1791158088,Terapia Física,noveno ,Mujer,8.8,9.0,8.7,0.05128119952471403,0
-1784831535,Enfermería,sexto ,Mujer,8.9,9.2,8.1,0.0028168998195983027,0
-1725118620,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.5,9.9,8.2,0.04480231002528347,0
-1775684096,Criminalística y Ciencias Forenses,tercero ,Mujer,9.3,8.2,8.9,0.009094852558407546,0
-1742800025,Salud Reproductiva y Partería,tercero ,Mujer,9.1,9.8,8.2,0.008656929488238726,0
-1792791824,Criminalística y Ciencias Forenses,tercero ,Hombre,9.3,9.0,9.2,0.005080143859828545,0
-1797154984,Desarrollo y gestión de software,undécimo ,Hombre,8.9,8.5,9.1,0.0002040816326530612,0
-1714365146,Desarrollo y gestión de software,tercero ,Mujer,9.3,8.6,8.5,0.004254230248877673,0
-1764832345,Negocios y Mercadotecnia,sexto ,Mujer,9.3,8.7,8.9,0.006769032145905872,0
-1721343279,Médico Cirujano y Partero,segundo ,Mujer,9.1,8.5,8.8,0.4752693419315328,1
-1731103986,Salud Reproductiva y Partería,tercero ,Mujer,9.0,10.0,8.4,0.0006245473799275808,0
-1796670997,Contaduría,noveno ,Hombre,9.3,9.5,9.0,0.24083737672033476,0
-1733356507,Terapia Física,primero ,Hombre,9.2,9.8,9.0,0.5488773888330849,1
-1796554589,Diseño Digital y Producción Audiovisual,segundo ,Mujer,9.1,9.5,8.0,0.5634285458778299,1
-1789798977,Contaduría,undécimo ,Mujer,8.9,9.2,8.6,0.002563832458064661,0
-1709431723,Innovación de Negocios y Mercadotecnia,undécimo ,Mujer,9.2,9.2,8.6,0.002784684346549137,0
-1769812390,Diseño Digital y Producción Audiovisual,primero ,Hombre,9.1,8.9,9.0,0.8587747352209777,1
-1761402106,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,8.9,9.0,8.2,0.00404765721985351,0
-1740542698,Negocios y Mercadotecnia,primero ,Hombre,9.2,8.3,8.2,0.622051025103748,1
-1788126412,Enfermería,tercero ,Hombre,9.7,9.8,8.6,0.0037597178806856226,0
-1795680672,Energías Renovables,segundo ,Mujer,9.1,8.1,9.1,0.4784555960289116,1
-1739596374,Contaduría,sexto ,Hombre,9.7,8.5,7.8,0.02476442195652624,0
-1703287058,Criminalística y Ciencias Forenses,noveno ,Mujer,9.9,10.0,7.9,0.27676583043966346,0
-1763014475,Negocios y Mercadotecnia,tercero ,Hombre,8.9,9.2,8.2,0.007762026396860668,0
-1771259255,Enfermería,undécimo ,Mujer,9.2,9.3,8.3,0.005424144069600061,0
-1716150216,Negocios y Mercadotecnia,tercero ,Mujer,9.9,9.5,7.5,0.05597790576174035,0
-1737593486,Diseño Digital y Producción Audiovisual,décimo tercero,Hombre,9.2,8.3,9.3,0.21502241964857347,0
-1798607326,Diseño Digital y Producción Audiovisual,primero ,Hombre,9.2,8.3,8.4,0.6727358751446081,1
-1727543770,Desarrollo y gestión de software,tercero ,Hombre,8.7,8.9,8.3,0.013494161475105581,0
-1784355176,Contaduría,primero ,Mujer,9.1,8.6,9.4,0.6815065880156157,1
-1704531306,Terapia Física,primero ,Hombre,9.4,9.1,8.9,0.7634897402161227,1
-1711841880,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.9,9.5,8.2,0.0090778231292517,0
-1723693165,Tecnologías de la Información e Innovación Digital,sexto ,Hombre,9.2,10.0,8.6,0.0033683756994069562,0
-1725543909,Terapia Física,tercero ,Mujer,8.7,9.6,8.5,0.005270995028680381,0
-1751279526,Terapia Física,tercero ,Hombre,8.8,8.6,9.3,0.0016814764183185234,0
-1738421121,Enfermería,sexto ,Hombre,9.2,8.9,8.4,0.016168289082796116,0
-1731981850,Enfermería,décimo tercero,Hombre,9.6,8.8,7.7,0.2599031291395117,0
-1730532285,Industrial,tercero ,Mujer,9.4,8.6,7.5,0.007441608230373303,0
-1784174138,Mecatrónica,primero ,Mujer,9.4,8.4,9.3,0.6528893374116138,1
-1733151622,Criminalística y Ciencias Forenses,sexto ,Hombre,9.6,10.0,8.1,0.025101196422624993,0
-1742198117,Mecatrónica,noveno ,Mujer,9.0,9.2,8.9,0.15563538906189814,0
-1786282482,Criminalística y Ciencias Forenses,primero ,Hombre,9.2,9.0,8.5,0.7877167473021345,1
-1760336704,Desarrollo y gestión de software,décimo tercero,Mujer,9.1,9.5,8.3,0.044910257374319855,0
-1763335614,Energía y Desarrollo Sostenible,sexto ,Mujer,9.2,9.5,8.3,0.021399076550449255,0
-1732656454,Criminalística y Ciencias Forenses,sexto ,Hombre,8.9,9.8,9.4,0.006645764197488334,0
-1761455496,Industrial,sexto ,Mujer,9.1,8.7,7.7,0.012426298446422285,0
-1797640491,Salud Reproductiva y Partería,tercero ,Mujer,9.2,9.4,8.3,0.008153793067738823,0
-1744143020,Criminalística y Ciencias Forenses,sexto ,Mujer,9.1,8.6,9.0,0.0035932994455905513,0
-1743649313,Terapia Física,sexto ,Mujer,9.2,9.1,7.8,0.04743700620742617,0
-1717283594,Diseño Digital y Producción Audiovisual,sexto ,Hombre,9.4,9.2,9.2,0.0038043843496752775,0
-1790807880,Salud Reproductiva y Partería,undécimo ,Mujer,9.6,9.3,9.0,0.0005578947368421052,0
-1710919746,Desarrollo y gestión de software,sexto ,Hombre,9.6,9.2,8.6,0.0014586798745725472,0
-1717570067,Salud Reproductiva y Partería,noveno ,Hombre,9.5,9.6,8.2,0.11381853323829197,0
-1724064778,Industrial,sexto ,Mujer,8.8,8.8,7.7,0.01191249157414571,0
-1760272704,Contaduría,undécimo ,Hombre,9.1,9.3,8.9,0.007901084465576209,0
-1734793326,Industrial,primero ,Mujer,9.1,8.7,10.0,0.685912139022239,1
-1722944579,Salud Reproductiva y Partería,noveno ,Mujer,9.0,10.0,8.6,0.028823314734874508,0
-1750778811,Criminalística y Ciencias Forenses,primero ,Hombre,9.3,8.6,7.5,0.6451631270647405,1
-1720338889,Contaduría,sexto ,Mujer,8.7,8.8,8.7,0.004869019465636007,0
-1761943715,Salud Reproductiva y Partería,noveno ,Mujer,9.7,9.7,9.0,0.21098593925490627,0
-1741907168,Enfermería,sexto ,Mujer,9.6,8.9,8.0,0.0034521419321419324,0
-1787981533,Salud Reproductiva y Partería,sexto ,Mujer,9.4,9.7,8.1,0.013535652137317444,0
-1742074296,Terapia Física,undécimo ,Mujer,9.2,9.3,8.1,0.013238430407011094,0
-1760814477,Contaduría,décimo tercero,Hombre,9.6,8.9,8.2,0.09269867396589404,0
-1766558511,Salud Reproductiva y Partería,tercero ,Mujer,9.4,8.7,8.4,0.0026902261187975477,0
-1743126754,Terapia Física,undécimo ,Mujer,9.6,8.7,8.0,0.0033402639116924832,0
-1707252668,Terapia Física,noveno ,Mujer,9.2,8.9,7.8,0.3544000010870536,0
-1747997042,Criminalística y Ciencias Forenses,tercero ,Mujer,9.8,9.1,8.6,0.0023324049619847936,0
-1703729189,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.6,8.7,8.4,0.0026902261187975477,0
-1746188335,Enfermería,sexto ,Mujer,9.4,9.1,8.3,0.007669916739287269,0
-1799950814,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.6,8.5,8.5,0.004430588930588931,0
-1783265724,Enfermería,tercero ,Mujer,9.1,9.6,7.7,0.054738812527368744,0
-1793339752,Energías Renovables,tercero ,Mujer,8.9,9.7,8.6,0.00023361035995830273,0
-1794545764,Desarrollo y gestión de software,sexto ,Mujer,9.3,8.8,8.3,0.005385445330092755,0
-1795383066,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,9.2,8.7,8.6,0.0009686252668708808,0
-1732749633,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.2,9.3,8.7,0.028892682725708982,0
-1777112202,Diseño Digital y Producción Audiovisual,quinto ,Mujer,9.6,9.9,9.1,0.47751561139408183,1
-1757954323,Negocios y Mercadotecnia,sexto ,Hombre,9.3,10.0,8.5,0.012340103031709513,0
-1760601308,Enfermería,undécimo ,Hombre,9.3,8.3,9.1,0.020454748190200527,0
-1750053356,Enfermería,décimo tercero,Mujer,9.1,9.8,8.3,0.045270855541273344,0
-1789483912,Enfermería,undécimo ,Mujer,9.5,9.1,8.3,0.003442055266444936,0
-1705502429,Diseño Digital y Producción Audiovisual,sexto ,Hombre,9.4,9.1,8.4,0.016618916039824,0
-1729244304,Terapia Física,undécimo ,Hombre,9.5,9.5,8.9,0.002181800997083389,0
-1794359366,Negocios y Mercadotecnia,tercero ,Mujer,9.1,8.9,8.8,0.021405772912686274,0
-1712078358,Energías Renovables,sexto ,Hombre,9.6,9.8,8.6,0.0003471582181259601,0
-1758378347,Criminalística y Ciencias Forenses,noveno ,Mujer,9.8,10.0,7.8,0.2770739033191649,0
-1795626795,Contaduría,noveno ,Hombre,9.5,10.0,8.8,0.06686744982623895,0
-1798583731,Diseño Digital y Producción Audiovisual,tercero ,Hombre,9.0,8.1,8.0,0.0006364468864468865,0
-1798431065,Industrial,segundo ,Mujer,9.0,9.0,8.0,0.4473979814716101,1
-1717376499,Tecnologías de la Información e Innovación Digital,undécimo ,Hombre,9.1,8.0,7.9,0.011461665045716994,0
-1778494142,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.1,8.7,8.4,0.028706694579620436,0
-1769470228,Energía y Desarrollo Sostenible,segundo ,Hombre,9.2,7.7,9.2,0.5067988857164337,1
-1748801439,Enfermería,sexto ,Hombre,9.4,9.4,8.0,0.017911041044272945,0
-1786560071,Industrial,cuarto ,Mujer,9.3,9.3,9.4,0.30581329326806134,0
-1798650015,Salud Reproductiva y Partería,noveno ,Hombre,9.3,8.9,9.0,0.24832167174082376,0
-1751094415,Terapia Física,tercero ,Mujer,9.2,8.7,7.7,0.00119006919006919,0
-1781912657,Desarrollo y gestión de software,undécimo ,Hombre,9.2,9.4,8.3,0.00634790618177933,0
-1775922064,Enfermería,undécimo ,Mujer,9.5,8.6,7.9,0.0036185923573574287,0
-1739335774,Negocios y Mercadotecnia,undécimo ,Hombre,8.6,8.5,8.9,0.0004761904761904762,0
-1753879901,Terapia Física,duodécimo ,Mujer,9.2,8.5,7.9,0.24123489731812406,0
-1787270932,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.3,9.0,7.6,0.008300093277746253,0
-1756368124,Mecatrónica,noveno ,Mujer,9.5,8.8,8.3,0.06375598605816155,0
-1727977834,Contaduría,primero ,Hombre,8.9,8.9,9.1,0.6056390475594797,1
-1747687193,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,8.9,9.5,8.4,0.009061055316435519,0
-1751622175,Criminalística y Ciencias Forenses,sexto ,Hombre,9.4,9.7,8.7,0.002900609155989357,0
-1700674435,Industrial,décimo tercero,Hombre,8.7,10.0,8.7,0.013197166140522465,0
-1752860644,Enfermería,tercero ,Hombre,9.6,9.2,7.7,0.012448836877408304,0
-1713596482,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.3,9.4,8.0,0.008640541375535474,0
-1703831942,Tecnologías de la Información e Innovación Digital,décimo tercero,Mujer,9.7,9.3,8.5,0.05543943249302219,0
-1783515281,Industrial,undécimo ,Mujer,8.9,8.2,8.2,0.0007607446317123738,0
-1784715294,Criminalística y Ciencias Forenses,undécimo ,Hombre,9.1,8.9,9.4,0.02695566361517498,0
-1779042318,Salud Reproductiva y Partería,undécimo ,Hombre,8.5,9.0,7.8,0.019470103831006086,0
-1721986504,Industrial,sexto ,Mujer,9.0,8.9,8.0,0.0045033550327667985,0
-1720311277,Innovación de Negocios y Mercadotecnia,décimo tercero,Hombre,9.2,9.1,8.7,0.03182837030413699,0
-1765830766,Contaduría,tercero ,Hombre,8.6,9.0,8.1,0.015262559866237278,0
-1723985428,Terapia Física,tercero ,Mujer,9.1,8.6,6.9,0.04553998500393901,0
-1744330682,Terapia Física,tercero ,Mujer,8.6,9.1,9.6,0.01687421299031206,0
-1712056175,Criminalística y Ciencias Forenses,noveno ,Mujer,9.2,8.8,7.9,0.22441614415551742,0
-1734722308,Contaduría,noveno ,Mujer,9.6,7.6,8.8,0.1378479220200889,0
-1777956582,Enfermería,primero ,Hombre,9.2,8.3,7.8,0.6429897063634941,1
-1722928368,Negocios y Mercadotecnia,sexto ,Mujer,9.7,9.2,8.0,0.012750984604368062,0
-1768237543,Criminalística y Ciencias Forenses,noveno ,Mujer,9.5,9.8,7.6,0.2927194048867835,0
-1770807384,Criminalística y Ciencias Forenses,tercero ,Hombre,9.6,7.7,8.1,0.018119185236649606,0
-1728833718,Innovación de Negocios y Mercadotecnia,sexto ,Hombre,9.0,8.7,8.1,0.012718755318755317,0
-1758760214,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,9.0,9.4,8.4,0.0016324838878640888,0
-1744342048,Enfermería,tercero ,Mujer,9.3,9.7,8.3,0.004585300988959856,0
-1783201707,Industrial,tercero ,Mujer,8.8,8.9,7.7,0.005481778725476204,0
-1767582935,Enfermería,tercero ,Hombre,9.4,8.8,8.2,0.010010688690589574,0
-1774253823,Mecatrónica,tercero ,Mujer,9.1,9.9,9.3,0.015191980659248133,0
-1766352517,Salud Reproductiva y Partería,noveno ,Mujer,9.6,9.6,9.2,0.1440497717107007,0
-1716807655,Criminalística y Ciencias Forenses,tercero ,Mujer,9.4,9.7,8.7,0.0014584322852410577,0
-1758105972,Industrial,undécimo ,Mujer,9.6,8.9,8.9,0.0007507692307692307,0
-1790802723,Contaduría,primero ,Mujer,9.0,9.8,9.6,0.4521291419056553,1
-1770500730,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.6,8.0,8.8,0.14273353262796837,0
-1796440958,Enfermería,cuarto ,Mujer,9.7,9.8,8.8,0.08420544638184844,0
-1787408074,Terapia Física,sexto ,Mujer,9.2,9.1,7.6,0.048680725698800546,0
-1726686207,Médico Cirujano y Partero,noveno ,Hombre,9.0,9.2,7.9,0.30055127918249863,0
-1727740969,Criminalística y Ciencias Forenses,quinto ,Mujer,9.0,8.6,8.5,0.47876029237641565,1
-1747866031,Contaduría,tercero ,Hombre,9.6,8.1,8.0,0.014562809360397961,0
-1711303142,Contaduría,segundo ,Mujer,9.9,9.2,7.9,0.5079528031294092,1
-1773009286,Contaduría,tercero ,Mujer,8.9,9.5,8.0,0.022133821642152555,0
-1718912912,Enfermería,sexto ,Mujer,8.9,9.6,7.7,0.04720764941856587,0
-1758862354,Criminalística y Ciencias Forenses,tercero ,Mujer,9.5,9.5,8.1,0.012871345015138118,0
-1715271082,Mecatrónica,undécimo ,Mujer,9.0,9.4,8.7,0.003883004369253379,0
-1706944086,Terapia Física,noveno ,Mujer,9.5,8.6,9.5,0.16376570340226365,0
-1778545132,Terapia Física,undécimo ,Hombre,9.4,9.6,8.9,0.007216813603524567,0
-1768459122,Enfermería,sexto ,Mujer,9.2,8.6,8.8,0.0030846826066536735,0
-1786798530,Diseño Digital y Producción Audiovisual,sexto ,Mujer,9.4,9.8,7.6,0.06784524198472988,0
-1776174634,Innovación de Negocios y Mercadotecnia,tercero ,Hombre,9.3,9.1,8.6,0.012217658876457482,0
-1770032912,Enfermería,sexto ,Mujer,9.2,9.1,8.5,0.009141553208839524,0
-1700547137,Terapia Física,segundo ,Mujer,8.7,9.7,8.7,0.4292278577740476,1
-1750301477,Criminalística y Ciencias Forenses,sexto ,Mujer,9.3,9.8,8.3,0.0024833454446079985,0
-1723959215,Mecatrónica,primero ,Hombre,9.7,9.6,9.4,0.5625604203280945,1
-1749494942,Negocios y Mercadotecnia,primero ,Mujer,8.7,8.7,8.5,0.40398738825736596,1
-1765318030,Diseño Digital y Producción Audiovisual,sexto ,Mujer,8.9,9.6,8.6,0.0008864521418323427,0
-1753448015,Salud Reproductiva y Partería,undécimo ,Mujer,9.4,8.7,7.4,0.0062327431256002696,0
-1746229129,Contaduría,tercero ,Hombre,9.2,9.6,8.4,0.001225239007930133,0
-1704463207,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.4,8.3,9.1,0.004171485289132348,0
-1721320217,Industrial,tercero ,Hombre,9.0,9.1,8.8,0.00567483368366216,0
-1758792464,Terapia Física,noveno ,Mujer,9.6,8.7,7.3,0.2487191575301509,0
-1774043524,Terapia Física,sexto ,Hombre,9.2,9.7,8.2,0.0275636625049572,0
-1715545640,Enfermería,noveno ,Hombre,9.4,9.8,9.4,0.1503611616150134,0
-1773895022,Criminalística y Ciencias Forenses,noveno ,Mujer,9.3,9.3,8.4,0.04369877512415583,0
-1793569350,Energías Renovables,sexto ,Mujer,9.3,9.3,8.7,0.006912568876472024,0
-1776821024,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.4,9.6,9.4,0.0048289209100568125,0
-1712362873,Terapia Física,undécimo ,Mujer,9.3,9.8,8.4,0.0006816103521876908,0
-1700007252,Salud Reproductiva y Partería,tercero ,Hombre,8.9,9.2,8.9,0.00512697741017678,0
-1746155259,Contaduría,tercero ,Mujer,9.6,8.9,8.7,0.0009024175824175826,0
-1794187278,Enfermería,undécimo ,Mujer,9.5,9.6,8.8,0.00028471528471528477,0
-1722179076,Criminalística y Ciencias Forenses,sexto ,Mujer,8.6,8.1,8.7,0.0026021510916247764,0
+1763746926,Enfermería,sexto ,Hombre,9.3,8.8,9.0,0.007940081712788146,0
+1774377254,Enfermería,undécimo ,Mujer,9.5,9.8,8.1,0.010236939029259852,0
+1717514095,Criminalística y Ciencias Forenses,tercero ,Mujer,9.0,8.1,8.4,0.002006685432793807,0
+1780926382,Negocios y Mercadotecnia,tercero ,Mujer,9.1,9.7,9.0,0.03446055056406778,0
+1742648613,Enfermería,noveno ,Mujer,9.0,9.1,8.3,0.002072860013500158,0
+1781989413,Enfermería,tercero ,Mujer,9.1,10.0,8.8,0.025381269035680804,0
+1767203173,Médico Cirujano y Partero,noveno ,Mujer,9.6,9.2,9.1,0.010894207720329353,0
+1715593519,Industrial,noveno ,Hombre,9.2,8.7,8.6,0.010204135132483846,0
+1719376874,Salud Reproductiva y Partería,sexto ,Hombre,9.5,9.4,8.7,0.002818899559655337,0
+1714798808,Innovación de Negocios y Mercadotecnia,duodécimo ,Mujer,8.9,9.2,8.4,0.0028373267944437836,0
+1768707720,Mecatrónica,undécimo ,Hombre,9.1,8.7,8.6,0.004703812547071877,0
+1772204969,Enfermería,tercero ,Mujer,9.5,10.0,7.9,0.059253399399157344,0
+1786871066,Criminalística y Ciencias Forenses,noveno ,Mujer,9.0,8.6,8.3,0.006952858632693797,0
+1774275202,Mecatrónica,primero ,Hombre,9.5,7.8,7.8,0.6686651001005354,1
+1742049668,Terapia Física,undécimo ,Mujer,9.0,10.0,8.0,0.025533391375871618,0
+1799260334,Mecatrónica,tercero ,Mujer,9.1,8.8,7.4,0.014432557843885075,0
+1766362519,Enfermería,duodécimo ,Mujer,9.7,9.0,8.6,0.0015161083142817223,0
+1784539686,Criminalística y Ciencias Forenses,sexto ,Mujer,9.1,9.0,9.4,0.020350649262703868,0
+1700883826,Contaduría,tercero ,Hombre,9.3,8.8,8.2,0.00960957348545707,0
+1757840297,Negocios y Mercadotecnia,tercero ,Hombre,9.4,8.7,9.0,0.0062741072496941145,0
+1757830093,Contaduría,tercero ,Hombre,9.3,8.6,9.1,0.010889628198048918,0
+1761204070,Mecatrónica,primero ,Hombre,9.3,9.2,7.8,0.8808358783919826,1
+1701156400,Enfermería,tercero ,Mujer,9.2,8.9,7.9,0.01495060837797375,0
+1721495636,Enfermería,tercero ,Mujer,8.8,9.6,9.0,0.02371925175667989,0
+1770574315,Innovación de Negocios y Mercadotecnia,primero ,Mujer,9.3,9.5,8.4,0.9139747054628102,1
+1750852332,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.6,7.8,0.005633707362703766,0
+1792236380,Enfermería,tercero ,Mujer,9.5,9.2,8.1,0.0021424213866554293,0
+1776170881,Industrial,tercero ,Hombre,9.7,8.9,8.7,0.005618608203971119,0
+1769269830,Terapia Física,tercero ,Mujer,8.7,8.6,8.1,0.05307571601501759,0
+1710446882,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.7,9.6,7.0,0.1165622409098922,0
+1722375707,Enfermería,undécimo ,Mujer,9.1,9.1,8.3,0.013072683180020823,0
+1730735732,Mecatrónica,tercero ,Hombre,9.2,8.9,8.4,0.01814010670617143,0
+1782811152,Negocios y Mercadotecnia,tercero ,Hombre,9.0,8.7,8.5,0.017456727361514802,0
+1783030437,Terapia Física,undécimo ,Mujer,9.3,8.6,9.2,0.008644156952433434,0
+1776200256,Innovación de Negocios y Mercadotecnia,undécimo ,Mujer,9.3,10.0,8.5,0.00018527684507645178,0
+1755525714,Criminalística y Ciencias Forenses,sexto ,Hombre,9.6,9.4,8.6,0.0006500430534226661,0
+1700423200,Terapia Física,noveno ,Mujer,9.0,8.5,9.1,0.0027322828943593387,0
+1745284704,Enfermería,sexto ,Mujer,9.7,9.3,8.5,0.0016297709930003324,0
+1720346021,Terapia Física,noveno ,Hombre,9.4,9.8,9.7,0.010346015275883049,0
+1789592771,Enfermería,noveno ,Hombre,9.3,9.3,7.8,0.025732358706726563,0
+1756191907,Contaduría,sexto ,Mujer,9.2,10.0,8.0,0.04247106925147989,0
+1708569692,Industrial,décimo tercero,Hombre,9.1,8.3,8.8,0.0253477814097029,0
+1718796833,Contaduría,tercero ,Hombre,9.2,8.0,9.2,0.020183890457257724,0
+1707261165,Terapia Física,primero ,Mujer,9.3,9.3,8.4,0.8711573358891536,1
+1728959950,Enfermería,tercero ,Hombre,9.2,9.3,7.9,0.029454016990621463,0
+1739554074,Terapia Física,primero ,Hombre,9.0,7.2,9.5,0.5757465762628217,1
+1746353267,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.3,8.8,8.1,0.01499467853250951,0
+1731920729,Salud Reproductiva y Partería,primero ,Hombre,9.0,8.6,8.7,0.6082244782779906,1
+1769494684,Terapia Física,tercero ,Mujer,9.3,8.3,9.2,0.006270377259143328,0
+1709901587,Mecatrónica,noveno ,Mujer,9.2,8.6,8.2,0.002521764840369788,0
+1740645629,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.4,9.5,8.1,0.017135934431536,0
+1724584034,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.5,8.6,8.2,0.011039583094151905,0
+1799463046,Industrial,noveno ,Mujer,9.5,8.6,9.0,0.009821983907190707,0
+1799543139,Contaduría,noveno ,Hombre,9.3,8.2,9.1,0.029795820467869234,0
+1792907437,Negocios y Mercadotecnia,sexto ,Hombre,9.4,9.9,8.5,0.013880546348699995,0
+1761037120,Contaduría,sexto ,Hombre,9.1,9.4,9.5,0.006077458440129825,0
+1702420079,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.4,7.7,8.5,0.042515171883649214,0
+1712126097,Terapia Física,tercero ,Hombre,9.5,8.6,9.2,0.0069638209254934,0
+1799912863,Criminalística y Ciencias Forenses,duodécimo ,Mujer,8.8,9.5,8.3,0.007852744813846724,0
+1794173848,Terapia Física,undécimo ,Mujer,9.3,9.9,9.8,0.031105407819693533,0
+1739487202,Contaduría,duodécimo ,Mujer,9.6,9.7,9.4,0.00015037593984962405,0
+1731067640,Enfermería,tercero ,Hombre,9.1,9.0,8.4,0.03548395594806026,0
+1766828003,Tecnologías de la Información e Innovación Digital,décimo tercero,Mujer,9.1,8.0,9.3,0.015360355350673507,0
+1785203828,Mecatrónica,primero ,Hombre,9.1,9.7,9.3,0.7671989163273084,1
+1763294428,Criminalística y Ciencias Forenses,undécimo ,Mujer,8.8,9.0,9.3,0.006018190439160808,0
+1734346864,Enfermería,noveno ,Hombre,9.3,9.2,7.1,0.06564220639304674,0
+1799694261,Innovación de Negocios y Mercadotecnia,sexto ,Hombre,9.2,9.1,8.9,0.006896133532122108,0
+1789905679,Industrial,primero ,Hombre,9.3,8.4,8.8,0.7390428841922544,1
+1781914452,Mecatrónica,noveno ,Hombre,9.4,9.4,8.8,0.0034900577378015113,0
+1770530683,Terapia Física,tercero ,Hombre,9.0,9.3,8.6,0.021403496672611457,0
+1735256992,Criminalística y Ciencias Forenses,sexto ,Hombre,9.3,8.9,8.6,0.004606187317489453,0
+1762193786,Enfermería,segundo ,Hombre,9.4,9.4,9.2,0.9336482689642546,1
+1702808705,Terapia Física,primero ,Hombre,9.1,8.4,8.8,0.7106498616599148,1
+1745945443,Salud Reproductiva y Partería,cuarto ,Hombre,9.4,9.0,8.6,0.012805548625248908,0
+1722381800,Mecatrónica,noveno ,Mujer,9.3,9.2,9.1,0.002577863593498443,0
+1745526897,Contaduría,tercero ,Mujer,9.0,8.1,8.7,0.0022851782610277312,0
+1757479397,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.3,9.1,8.8,0.003331390219326806,0
+1791483508,Contaduría,tercero ,Mujer,9.1,9.6,9.5,0.02023899145598615,0
+1704325124,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.4,9.0,8.3,0.005493070574634499,0
+1781971467,Criminalística y Ciencias Forenses,sexto ,Hombre,9.2,9.1,7.7,0.019430022311164603,0
+1705010498,Médico Cirujano y Partero,tercero ,Hombre,8.8,9.5,8.5,0.02764169903688628,0
+1750018204,Enfermería,sexto ,Hombre,9.3,8.9,8.6,0.0018119047376468618,0
+1765044524,Médico Cirujano y Partero,segundo ,Mujer,9.3,9.0,8.9,0.8968964770082052,1
+1764449920,Industrial,sexto ,Mujer,8.9,8.5,8.6,0.0003842364532019704,0
+1748023007,Enfermería,décimo tercero,Mujer,9.5,9.2,8.9,0.0004582776155551363,0
+1717699155,Contaduría,noveno ,Mujer,9.4,9.0,9.9,0.03561237439508104,0
+1721054806,Innovación de Negocios y Mercadotecnia,tercero ,Mujer,9.0,9.5,8.9,0.03232049826599142,0
+1744126515,Contaduría,sexto ,Mujer,9.0,9.5,9.0,0.004469247653294728,0
+1711121385,Tecnologías de la Información e Innovación Digital,tercero ,Hombre,9.2,9.6,8.4,0.030714494894730743,0
+1707692043,Médico Cirujano y Partero,sexto ,Hombre,9.0,8.9,7.7,0.01590769957129404,0
+1797090374,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.4,7.9,7.2,0.03462863770769396,0
+1715412866,Criminalística y Ciencias Forenses,tercero ,Mujer,9.3,9.6,8.2,0.017923597898567976,0
+1757373782,Médico Cirujano y Partero,tercero ,Mujer,8.9,9.4,7.1,0.0686902022564745,0
+1721922441,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.8,8.8,0.0002566465792272244,0
+1795450489,Enfermería,cuarto ,Hombre,9.6,9.5,8.3,0.020670537411706373,0
+1710989885,Enfermería,primero ,Mujer,9.7,8.3,7.8,0.6400742158493603,1
+1770930702,Contaduría,undécimo ,Mujer,9.4,9.8,8.6,0.00016949152542372882,0
+1737596719,Médico Cirujano y Partero,tercero ,Mujer,9.2,9.0,8.1,0.021266891413526053,0
+1772626195,Industrial,primero ,Mujer,9.1,8.7,8.7,0.715845563413146,1
+1722864968,Negocios y Mercadotecnia,primero ,Hombre,9.4,8.8,8.9,0.7138596129362071,1
+1706598038,Enfermería,noveno ,Hombre,9.3,9.0,8.1,0.006716538075471966,0
+1739281351,Terapia Física,quinto ,Hombre,8.7,9.2,8.4,0.03881848377456521,0
+1777029845,Innovación de Negocios y Mercadotecnia,sexto ,Mujer,9.5,9.2,8.6,0.0007101341289237508,0
+1739175480,Terapia Física,segundo ,Mujer,9.6,8.9,7.7,0.7733390096557666,1
+1745455637,Terapia Física,décimo tercero,Mujer,9.5,9.3,8.6,0.0020430377403152567,0
+1768622743,Enfermería,tercero ,Hombre,8.9,9.2,7.7,0.03763766671092504,0
+1775133550,Negocios y Mercadotecnia,sexto ,Mujer,9.0,8.8,8.8,0.0002566465792272244,0
+1775281792,Médico Cirujano y Partero,cuarto ,Mujer,8.7,8.7,8.3,0.047354203438535115,0
+1745953230,Terapia Física,tercero ,Mujer,9.7,9.5,7.7,0.03369153632831079,0
+1730095432,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.1,9.5,8.2,0.007502880568418719,0
+1705179469,Negocios y Mercadotecnia,cuarto ,Mujer,9.9,9.2,8.2,0.03183038972318789,0
+1717130480,Energías Renovables,noveno ,Mujer,9.8,9.7,9.1,0.02142926587884571,0
+1787562041,Enfermería,tercero ,Mujer,9.0,8.0,8.6,0.0019288806431663574,0
+1747812207,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.0,8.8,8.0,0.010135402607668894,0
+1757842444,Criminalística y Ciencias Forenses,tercero ,Mujer,9.4,8.5,9.4,0.0031025613195839723,0
+1729389817,Innovación de Negocios y Mercadotecnia,noveno ,Hombre,8.7,10.0,8.8,0.014864463362362523,0
+1776725060,Diseño Digital y Producción Audiovisual,tercero ,Mujer,9.1,9.6,8.3,0.02218567362587083,0
+1780061477,Enfermería,noveno ,Hombre,9.1,9.1,7.6,0.026260119687546952,0
+1726255262,Negocios y Mercadotecnia,noveno ,Hombre,9.8,9.6,8.3,0.05676080103196338,0
+1779303635,Salud Reproductiva y Partería,undécimo ,Mujer,9.3,9.8,8.4,0.0003282216841538876,0
+1780460351,Enfermería,noveno ,Hombre,9.1,9.8,8.7,0.0008007458007458007,0
+1794905537,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.0,9.7,8.8,0.0001433238576095719,0
+1737743122,Terapia Física,undécimo ,Hombre,9.5,9.0,8.9,0.009046310070818879,0
+1733943975,Contaduría,tercero ,Hombre,9.1,8.9,7.6,0.0519040357401702,0
+1757699718,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.2,8.6,8.6,0.002922266275492025,0
+1707334747,Mecatrónica,tercero ,Hombre,9.0,9.5,8.4,0.026097772694419465,0
+1790985278,Criminalística y Ciencias Forenses,segundo ,Hombre,8.8,9.1,10.0,0.7674408615386685,1
+1756044935,Innovación de Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.9,8.5,0.02743724801673558,0
+1768056274,Mecatrónica,sexto ,Mujer,9.1,8.9,8.1,0.02173754438273687,0
+1784893849,Negocios y Mercadotecnia,undécimo ,Hombre,9.2,10.0,8.6,0.0018885979869252617,0
+1782389516,Salud Reproductiva y Partería,sexto ,Hombre,9.2,9.7,8.5,0.009107653108819957,0
+1711025786,Salud Reproductiva y Partería,tercero ,Mujer,9.2,10.0,7.4,0.07077585607334452,0
+1735470059,Enfermería,noveno ,Mujer,9.1,9.5,8.7,0.008185155822279041,0
+1714060380,Criminalística y Ciencias Forenses,undécimo ,Mujer,9.6,9.2,8.3,0.002010922750024924,0
+1735570606,Médico Cirujano y Partero,undécimo ,Mujer,9.5,9.2,8.5,0.011568604256466171,0
+1727207210,Enfermería,sexto ,Mujer,9.2,8.6,8.0,0.0037790992327436847,0
+1721150152,Mecatrónica,noveno ,Hombre,9.3,8.4,7.9,0.03279773749477148,0
+1730766299,Energía y Desarrollo Sostenible,sexto ,Mujer,9.1,9.5,9.0,0.008127615789949095,0
+1721066167,Enfermería,undécimo ,Hombre,8.4,8.6,9.1,0.02121407814506001,0
+1708627675,Negocios y Mercadotecnia,noveno ,Mujer,9.2,9.3,8.7,0.0039037941873036937,0
+1784220712,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.3,9.8,7.5,0.05783936649209202,0
+1777334546,Contaduría,tercero ,Mujer,8.7,8.8,8.8,0.04471918706268358,0
+1716960642,Enfermería,tercero ,Mujer,9.4,10.0,7.5,0.07175869363598796,0
+1723110439,Enfermería,tercero ,Hombre,9.1,8.6,8.1,0.007955776672896079,0
+1712663445,Negocios y Mercadotecnia,tercero ,Hombre,9.3,9.8,9.0,0.04121946149568762,0
+1781423957,Industrial,sexto ,Hombre,9.2,9.4,8.9,0.0031991625175408715,0
+1709760120,Salud Reproductiva y Partería,noveno ,Hombre,9.6,9.9,8.7,0.0037366580708898768,0
+1787186855,Contaduría,tercero ,Hombre,9.3,8.5,9.2,0.009154934320497897,0
+1739916451,Enfermería,segundo ,Mujer,9.5,10.0,8.8,0.7155062273161014,1
+1749385104,Mecatrónica,tercero ,Hombre,9.6,9.1,7.4,0.03144924599210313,0
+1785964954,Terapia Física,undécimo ,Hombre,8.9,9.6,8.3,0.002181080789469856,0
+1785718469,Tecnologías de la Información e Innovación Digital,noveno ,Mujer,9.0,10.0,8.5,0.001953882863820752,0
+1709491502,Industrial,sexto ,Hombre,9.4,8.8,8.4,0.012985266852234676,0
+1743294730,Mecatrónica,tercero ,Mujer,9.1,9.7,8.2,0.03630498404153348,0
+1767251675,Desarrollo y gestión de software,noveno ,Mujer,9.2,8.7,7.9,0.007673533422514233,0
+1754709332,Enfermería,sexto ,Hombre,9.6,10.0,9.8,0.01084147120591172,0
+1723018914,Mecatrónica,segundo ,Mujer,9.1,8.7,8.3,0.708881731181225,1
+1788700879,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,9.2,9.8,0.036436235453494836,0
+1786221425,Tecnologías de la Información e Innovación Digital,segundo ,Hombre,9.0,9.4,7.9,0.7195249217713023,1
+1712400986,Terapia Física,tercero ,Mujer,9.9,9.6,8.9,0.07031332135228459,0
+1707274064,Mecatrónica,undécimo ,Mujer,9.2,10.0,8.6,0.00018527684507645178,0
+1755781898,Innovación de Negocios y Mercadotecnia,noveno ,Hombre,8.8,8.9,8.0,0.017180691072546408,0
+1799606945,Enfermería,undécimo ,Mujer,8.7,9.8,8.2,0.014267137967295838,0
+1796468271,Criminalística y Ciencias Forenses,tercero ,Mujer,9.0,10.0,8.5,0.04183822749017618,0
+1761362196,Salud Reproductiva y Partería,undécimo ,Hombre,9.2,9.3,8.0,0.013747482162237893,0
+1707212479,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.5,8.8,8.3,0.012863788167948533,0
+1766670358,Terapia Física,undécimo ,Mujer,9.5,8.1,7.2,0.032308546795631186,0
+1710916291,Terapia Física,sexto ,Hombre,9.2,10.0,8.9,0.009652581432433832,0
+1761263048,Enfermería,décimo tercero,Hombre,9.1,9.0,9.2,0.00816144867770382,0
+1778986340,Industrial,tercero ,Mujer,9.3,8.6,8.7,0.0054481427708554875,0
+1702713148,Contaduría,primero ,Mujer,8.7,8.4,9.7,0.5993735628431864,1
+1704808739,Enfermería,primero ,Mujer,9.8,8.6,8.9,0.6633516123459299,1
+1744567718,Criminalística y Ciencias Forenses,primero ,Hombre,9.4,9.7,9.1,0.7605684806637071,1
+1763373542,Criminalística y Ciencias Forenses,noveno ,Mujer,9.5,9.8,9.2,0.0017174755069491912,0
+1791898092,Terapia Física,sexto ,Mujer,8.9,9.6,7.0,0.06663179544913288,0
+1775445608,Diseño Digital y Producción Audiovisual,séptimo ,Hombre,9.6,9.2,8.7,0.011156777351896366,0
+1723909211,Criminalística y Ciencias Forenses,tercero ,Hombre,9.1,8.4,7.7,0.01195107013056939,0
+1707225788,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,8.7,7.8,0.009272664254259608,0
+1734187282,Mecatrónica,undécimo ,Mujer,9.2,8.5,7.9,0.005667905014851329,0
+1781987841,Terapia Física,undécimo ,Mujer,9.2,9.5,8.3,0.005887461828392171,0
+1775749154,Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.5,8.8,0.0008160871386677837,0
+1740172927,Contaduría,undécimo ,Hombre,9.0,8.7,8.7,0.006090428479083942,0
+1771705727,Contaduría,primero ,Hombre,8.9,9.1,8.5,0.7711081041812821,1
+1708849356,Negocios y Mercadotecnia,tercero ,Mujer,8.9,8.2,8.9,5.0471801623875364e-05,0
+1749826994,Contaduría,décimo tercero,Mujer,9.1,9.2,8.9,0.004328451014149575,0
+1761316108,Innovación de Negocios y Mercadotecnia,tercero ,Hombre,8.8,9.1,8.7,0.030626094144837357,0
+1707172526,Negocios y Mercadotecnia,sexto ,Mujer,9.0,9.9,7.5,0.0428306584576415,0
+1798145333,Contaduría,tercero ,Mujer,9.6,8.7,8.1,0.008232242729540805,0
+1713050950,Industrial,tercero ,Mujer,9.5,8.4,8.5,0.017529891668185096,0
+1759711323,Contaduría,décimo tercero,Mujer,8.9,8.9,8.9,0.003588618554441339,0
+1760529691,Terapia Física,sexto ,Hombre,9.5,8.5,7.8,0.008472372975903543,0
+1713028663,Terapia Física,sexto ,Mujer,8.6,9.2,8.5,0.007408747212224738,0
+1713520744,Enfermería,tercero ,Mujer,9.9,8.1,7.6,0.0199489962073813,0
+1735284209,Tecnologías de la Información e Innovación Digital,noveno ,Mujer,9.6,8.8,9.1,0.004388300585267177,0
+1751208717,Mecatrónica,noveno ,Hombre,9.1,8.6,8.6,0.005425091268350599,0
+1780471362,Médico Cirujano y Partero,sexto ,Mujer,9.3,9.5,7.7,0.04590956671136735,0
+1747923860,Contaduría,sexto ,Mujer,8.8,8.7,7.7,0.04157122651733351,0
+1733858554,Diseño Digital y Producción Audiovisual,décimo tercero,Mujer,9.3,8.1,8.7,0.019620295262880602,0
+1741770741,Enfermería,sexto ,Mujer,9.2,9.0,9.2,0.00395402248122675,0
+1715805875,Negocios y Mercadotecnia,noveno ,Mujer,9.0,9.4,7.9,0.018680243595803368,0
+1727808553,Contaduría,tercero ,Hombre,9.1,9.0,8.9,0.03147250296575439,0
+1709710100,Energías Renovables,primero ,Mujer,9.1,8.8,8.2,0.7122777959963378,1
+1780395615,Terapia Física,sexto ,Mujer,8.9,8.8,8.9,0.0008141653762197056,0
+1769911960,Contaduría,noveno ,Hombre,9.0,9.2,8.9,0.0005173745173745174,0
+1772585868,Negocios y Mercadotecnia,tercero ,Mujer,8.8,8.6,8.6,0.025097139419720062,0
+1717713633,Negocios y Mercadotecnia,quinto ,Mujer,9.5,9.0,7.5,0.025294803441065567,0
+1759592891,Contaduría,sexto ,Mujer,8.9,9.6,8.9,0.0029267161410018554,0
+1756829263,Salud Reproductiva y Partería,undécimo ,Hombre,8.9,8.4,8.8,0.012967488278833995,0
+1776462151,Terapia Física,sexto ,Mujer,9.5,9.1,8.7,0.006420006697483912,0
+1725478292,Mecatrónica,tercero ,Hombre,9.3,8.1,8.6,0.020328913731276144,0
+1725060497,Negocios y Mercadotecnia,primero ,Hombre,9.5,9.3,8.0,0.8448339867996926,1
+1734337102,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,9.5,8.6,9.1,0.0025919388393255984,0
+1783941311,Industrial,primero ,Hombre,9.8,9.8,9.0,0.7313911218440386,1
+1735692295,Criminalística y Ciencias Forenses,décimo tercero,Mujer,9.2,8.3,7.9,0.01236696709582407,0
+1721740297,Terapia Física,primero ,Mujer,8.8,9.4,9.2,0.7130689607989457,1
+1736916445,Nanotecnología,tercero ,Hombre,9.3,9.9,8.6,0.03892380267711775,0
+1785768316,Contaduría,primero ,Hombre,9.0,8.6,8.6,0.6319670084602799,1
+1750881244,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,8.9,8.7,8.4,0.004195431377720381,0
+1707736925,Enfermería,décimo tercero,Mujer,9.3,8.6,8.4,0.010771987641463742,0
+1799804370,Negocios y Mercadotecnia,undécimo ,Mujer,9.5,8.9,9.2,0.006729745946459912,0
+1785384440,Salud Reproductiva y Partería,primero ,Hombre,9.0,9.5,9.1,0.7344926880844705,1
+1707753118,Desarrollo y gestión de software,noveno ,Mujer,9.6,8.8,9.0,0.003982964142062571,0
+1743906254,Criminalística y Ciencias Forenses,noveno ,Mujer,8.9,8.5,8.6,0.002862558356676004,0
+1744002934,Mecatrónica,tercero ,Mujer,9.2,8.0,9.0,0.00880214857535971,0
+1717181867,Contaduría,primero ,Mujer,9.4,10.0,8.0,0.7639448775736888,1
+1716536319,Enfermería,sexto ,Hombre,9.1,10.0,8.8,0.006622500609895567,0
+1767140675,Mecatrónica,noveno ,Mujer,8.7,9.5,8.4,0.005953434169775963,0
+1745106699,Mecatrónica,primero ,Hombre,9.5,8.7,7.4,0.6577839216053366,1
+1711097707,Médico Cirujano y Partero,noveno ,Mujer,9.0,9.6,7.6,0.04093903065707576,0
+1783002448,Diseño Digital y Producción Audiovisual,tercero ,Hombre,9.5,9.7,8.1,0.041025423105847496,0
+1791158088,Terapia Física,noveno ,Mujer,8.8,9.0,8.7,0.0022916502243271967,0
+1784831535,Enfermería,sexto ,Mujer,8.9,9.2,8.1,0.001828840690836307,0
+1725118620,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.5,9.9,8.2,0.0007705269455534484,0
+1775684096,Criminalística y Ciencias Forenses,tercero ,Mujer,9.3,8.2,8.9,0.009673790877538077,0
+1742800025,Salud Reproductiva y Partería,tercero ,Mujer,9.1,9.8,8.2,0.036539726816722,0
+1792791824,Criminalística y Ciencias Forenses,tercero ,Hombre,9.3,9.0,9.2,0.006666427296448644,0
+1797154984,Desarrollo y gestión de software,undécimo ,Hombre,8.9,8.5,9.1,0.0035296451914098976,0
+1714365146,Desarrollo y gestión de software,tercero ,Mujer,9.3,8.6,8.5,0.0035790951518078675,0
+1764832345,Negocios y Mercadotecnia,sexto ,Mujer,9.3,8.7,8.9,0.0039454728653162425,0
+1721343279,Médico Cirujano y Partero,segundo ,Mujer,9.1,8.5,8.8,0.714811564052215,1
+1731103986,Salud Reproductiva y Partería,tercero ,Mujer,9.0,10.0,8.4,0.04151152174755694,0
+1796670997,Contaduría,noveno ,Hombre,9.3,9.5,9.0,0.004626209397375445,0
+1733356507,Terapia Física,primero ,Hombre,9.2,9.8,9.0,0.755596601338978,1
+1796554589,Diseño Digital y Producción Audiovisual,segundo ,Mujer,9.1,9.5,8.0,0.8742908779425925,1
+1789798977,Contaduría,undécimo ,Mujer,8.9,9.2,8.6,0.00305133034723299,0
+1709431723,Innovación de Negocios y Mercadotecnia,undécimo ,Mujer,9.2,9.2,8.6,0.0024304599717895827,0
+1769812390,Diseño Digital y Producción Audiovisual,primero ,Hombre,9.1,8.9,9.0,0.9230109483684183,1
+1761402106,Tecnologías de la Información e Innovación Digital,sexto ,Mujer,8.9,9.0,8.2,0.0013098673107617613,0
+1740542698,Negocios y Mercadotecnia,primero ,Hombre,9.2,8.3,8.2,0.7028930494633243,1
+1788126412,Enfermería,tercero ,Hombre,9.7,9.8,8.6,0.037388836303752254,0
+1795680672,Energías Renovables,segundo ,Mujer,9.1,8.1,9.1,0.7116621672641675,1
+1739596374,Contaduría,sexto ,Hombre,9.7,8.5,7.8,0.015757622161594223,0
+1703287058,Criminalística y Ciencias Forenses,noveno ,Mujer,9.9,10.0,7.9,0.05416962891734449,0
+1763014475,Negocios y Mercadotecnia,tercero ,Hombre,8.9,9.2,8.2,0.024976298300938875,0
+1771259255,Enfermería,undécimo ,Mujer,9.2,9.3,8.3,0.0038223237302200575,0
+1716150216,Negocios y Mercadotecnia,tercero ,Mujer,9.9,9.5,7.5,0.05562260293480862,0
+1737593486,Diseño Digital y Producción Audiovisual,décimo tercero,Hombre,9.2,8.3,9.3,0.022087975148676803,0
+1798607326,Diseño Digital y Producción Audiovisual,primero ,Hombre,9.2,8.3,8.4,0.7525786793954765,1
+1727543770,Desarrollo y gestión de software,tercero ,Hombre,8.7,8.9,8.3,0.057681152586260234,0
+1784355176,Contaduría,primero ,Mujer,9.1,8.6,9.4,0.7104231580155166,1
+1704531306,Terapia Física,primero ,Hombre,9.4,9.1,8.9,0.8537794075965774,1
+1711841880,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.9,9.5,8.2,0.009746042396115779,0
+1723693165,Tecnologías de la Información e Innovación Digital,sexto ,Hombre,9.2,10.0,8.6,0.009247526872090451,0
+1725543909,Terapia Física,tercero ,Mujer,8.7,9.6,8.5,0.044485553568546284,0
+1751279526,Terapia Física,tercero ,Hombre,8.8,8.6,9.3,0.022781728640023566,0
+1738421121,Enfermería,sexto ,Hombre,9.2,8.9,8.4,0.004019478102823933,0
+1731981850,Enfermería,décimo tercero,Hombre,9.6,8.8,7.7,0.018094423487449073,0
+1730532285,Industrial,tercero ,Mujer,9.4,8.6,7.5,0.014581734882512002,0
+1784174138,Mecatrónica,primero ,Mujer,9.4,8.4,9.3,0.7221312101529515,1
+1733151622,Criminalística y Ciencias Forenses,sexto ,Hombre,9.6,10.0,8.1,0.025606546414656584,0
+1742198117,Mecatrónica,noveno ,Mujer,9.0,9.2,8.9,0.000637210328360773,0
+1786282482,Criminalística y Ciencias Forenses,primero ,Hombre,9.2,9.0,8.5,0.9266421220486437,1
+1760336704,Desarrollo y gestión de software,décimo tercero,Mujer,9.1,9.5,8.3,0.007361618239392265,0
+1763335614,Energía y Desarrollo Sostenible,sexto ,Mujer,9.2,9.5,8.3,0.010045015128247424,0
+1732656454,Criminalística y Ciencias Forenses,sexto ,Hombre,8.9,9.8,9.4,0.009315213731180117,0
+1761455496,Industrial,sexto ,Mujer,9.1,8.7,7.7,0.006943393916751222,0
+1797640491,Salud Reproductiva y Partería,tercero ,Mujer,9.2,9.4,8.3,0.005865439866894676,0
+1744143020,Criminalística y Ciencias Forenses,sexto ,Mujer,9.1,8.6,9.0,0.0030920445226245595,0
+1743649313,Terapia Física,sexto ,Mujer,9.2,9.1,7.8,0.030212223810461417,0
+1717283594,Diseño Digital y Producción Audiovisual,sexto ,Hombre,9.4,9.2,9.2,0.003202156637864943,0
+1790807880,Salud Reproductiva y Partería,undécimo ,Mujer,9.6,9.3,9.0,0.0008956903646691385,0
+1710919746,Desarrollo y gestión de software,sexto ,Hombre,9.6,9.2,8.6,0.0015738047689237821,0
+1717570067,Salud Reproductiva y Partería,noveno ,Hombre,9.5,9.6,8.2,0.008382950792370569,0
+1724064778,Industrial,sexto ,Mujer,8.8,8.8,7.7,0.011996792609308297,0
+1760272704,Contaduría,undécimo ,Hombre,9.1,9.3,8.9,0.003920833380983757,0
+1734793326,Industrial,primero ,Mujer,9.1,8.7,10.0,0.7126305618509546,1
+1722944579,Salud Reproductiva y Partería,noveno ,Mujer,9.0,10.0,8.6,0.0019290381433238579,0
+1750778811,Criminalística y Ciencias Forenses,primero ,Hombre,9.3,8.6,7.5,0.6757631645311103,1
+1720338889,Contaduría,sexto ,Mujer,8.7,8.8,8.7,0.012975657675657677,0
+1761943715,Salud Reproductiva y Partería,noveno ,Mujer,9.7,9.7,9.0,0.01801730808873666,0
+1741907168,Enfermería,sexto ,Mujer,9.6,8.9,8.0,0.006530641567889039,0
+1787981533,Salud Reproductiva y Partería,sexto ,Mujer,9.4,9.7,8.1,0.01314848652451527,0
+1742074296,Terapia Física,undécimo ,Mujer,9.2,9.3,8.1,0.010562174588199904,0
+1760814477,Contaduría,décimo tercero,Hombre,9.6,8.9,8.2,0.0074969077986933,0
+1766558511,Salud Reproductiva y Partería,tercero ,Mujer,9.4,8.7,8.4,0.005970915917708005,0
+1743126754,Terapia Física,undécimo ,Mujer,9.6,8.7,8.0,0.009393803548527313,0
+1707252668,Terapia Física,noveno ,Mujer,9.2,8.9,7.8,0.027326404243536082,0
+1747997042,Criminalística y Ciencias Forenses,tercero ,Mujer,9.8,9.1,8.6,0.0070740311622351235,0
+1703729189,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.6,8.7,8.4,0.0058248345697582745,0
+1746188335,Enfermería,sexto ,Mujer,9.4,9.1,8.3,0.003836816354670456,0
+1799950814,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.6,8.5,8.5,0.0033131874866826204,0
+1783265724,Enfermería,tercero ,Mujer,9.1,9.6,7.7,0.0571652060518051,0
+1793339752,Energías Renovables,tercero ,Mujer,8.9,9.7,8.6,0.03686848863214409,0
+1794545764,Desarrollo y gestión de software,sexto ,Mujer,9.3,8.8,8.3,0.0031200681699068695,0
+1795383066,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,9.2,8.7,8.6,0.0065003552522333785,0
+1732749633,Diseño Digital y Producción Audiovisual,noveno ,Hombre,9.2,9.3,8.7,0.0022743961709372974,0
+1777112202,Diseño Digital y Producción Audiovisual,quinto ,Mujer,9.6,9.9,9.1,0.01816731836888847,0
+1757954323,Negocios y Mercadotecnia,sexto ,Hombre,9.3,10.0,8.5,0.01569768987277629,0
+1760601308,Enfermería,undécimo ,Hombre,9.3,8.3,9.1,0.03743438032071479,0
+1750053356,Enfermería,décimo tercero,Mujer,9.1,9.8,8.3,0.0022393627393627394,0
+1789483912,Enfermería,undécimo ,Mujer,9.5,9.1,8.3,0.0022188536251492134,0
+1705502429,Diseño Digital y Producción Audiovisual,sexto ,Hombre,9.4,9.1,8.4,0.005808259389187271,0
+1729244304,Terapia Física,undécimo ,Hombre,9.5,9.5,8.9,0.0025058844312306704,0
+1794359366,Negocios y Mercadotecnia,tercero ,Mujer,9.1,8.9,8.8,0.0318929856986096,0
+1712078358,Energías Renovables,sexto ,Hombre,9.6,9.8,8.6,0.005289670180426483,0
+1758378347,Criminalística y Ciencias Forenses,noveno ,Mujer,9.8,10.0,7.8,0.054216724678725965,0
+1795626795,Contaduría,noveno ,Hombre,9.5,10.0,8.8,0.00011904761904761905,0
+1798583731,Diseño Digital y Producción Audiovisual,tercero ,Hombre,9.0,8.1,8.0,0.008748046028190645,0
+1798431065,Industrial,segundo ,Mujer,9.0,9.0,8.0,0.7113558572926425,1
+1717376499,Tecnologías de la Información e Innovación Digital,undécimo ,Hombre,9.1,8.0,7.9,0.0215182485101384,0
+1778494142,Innovación de Negocios y Mercadotecnia,noveno ,Mujer,9.1,8.7,8.4,0.012882592829592457,0
+1769470228,Energía y Desarrollo Sostenible,segundo ,Hombre,9.2,7.7,9.2,0.7459029437840929,1
+1748801439,Enfermería,sexto ,Hombre,9.4,9.4,8.0,0.02354208589108103,0
+1786560071,Industrial,cuarto ,Mujer,9.3,9.3,9.4,0.015096430229296376,0
+1798650015,Salud Reproductiva y Partería,noveno ,Hombre,9.3,8.9,9.0,0.00938992321479762,0
+1751094415,Terapia Física,tercero ,Mujer,9.2,8.7,7.7,0.0034047878967133627,0
+1781912657,Desarrollo y gestión de software,undécimo ,Hombre,9.2,9.4,8.3,0.003053545610092916,0
+1775922064,Enfermería,undécimo ,Mujer,9.5,8.6,7.9,0.009458677943661502,0
+1739335774,Negocios y Mercadotecnia,undécimo ,Hombre,8.6,8.5,8.9,0.002199564772145417,0
+1753879901,Terapia Física,duodécimo ,Mujer,9.2,8.5,7.9,0.004491925735531875,0
+1787270932,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.3,9.0,7.6,0.008582002830814258,0
+1756368124,Mecatrónica,noveno ,Mujer,9.5,8.8,8.3,0.003999408080407447,0
+1727977834,Contaduría,primero ,Hombre,8.9,8.9,9.1,0.7568232367447478,1
+1747687193,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,8.9,9.5,8.4,0.003356395307647745,0
+1751622175,Criminalística y Ciencias Forenses,sexto ,Hombre,9.4,9.7,8.7,0.0032442681254104123,0
+1700674435,Industrial,décimo tercero,Hombre,8.7,10.0,8.7,0.014255516753415914,0
+1752860644,Enfermería,tercero ,Hombre,9.6,9.2,7.7,0.016072736593427887,0
+1713596482,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.3,9.4,8.0,0.01563828761941964,0
+1703831942,Tecnologías de la Información e Innovación Digital,décimo tercero,Mujer,9.7,9.3,8.5,0.004970575301294359,0
+1783515281,Industrial,undécimo ,Mujer,8.9,8.2,8.2,0.007039569957911206,0
+1784715294,Criminalística y Ciencias Forenses,undécimo ,Hombre,9.1,8.9,9.4,0.021238445555386756,0
+1779042318,Salud Reproductiva y Partería,undécimo ,Hombre,8.5,9.0,7.8,0.026248441531449725,0
+1721986504,Industrial,sexto ,Mujer,9.0,8.9,8.0,0.0037914530045629184,0
+1720311277,Innovación de Negocios y Mercadotecnia,décimo tercero,Hombre,9.2,9.1,8.7,0.008024317544090121,0
+1765830766,Contaduría,tercero ,Hombre,8.6,9.0,8.1,0.06581692291348758,0
+1723985428,Terapia Física,tercero ,Mujer,9.1,8.6,6.9,0.046370850458995375,0
+1744330682,Terapia Física,tercero ,Mujer,8.6,9.1,9.6,0.03817650047028538,0
+1712056175,Criminalística y Ciencias Forenses,noveno ,Mujer,9.2,8.8,7.9,0.005695899944880758,0
+1734722308,Contaduría,noveno ,Mujer,9.6,7.6,8.8,0.0267075802241311,0
+1777956582,Enfermería,primero ,Hombre,9.2,8.3,7.8,0.6863044589233347,1
+1722928368,Negocios y Mercadotecnia,sexto ,Mujer,9.7,9.2,8.0,0.009096470330729894,0
+1768237543,Criminalística y Ciencias Forenses,noveno ,Mujer,9.5,9.8,7.6,0.06228556931709275,0
+1770807384,Criminalística y Ciencias Forenses,tercero ,Hombre,9.6,7.7,8.1,0.018236695393777702,0
+1728833718,Innovación de Negocios y Mercadotecnia,sexto ,Hombre,9.0,8.7,8.1,0.00905012155195344,0
+1758760214,Diseño Digital y Producción Audiovisual,undécimo ,Hombre,9.0,9.4,8.4,0.00012447100444914377,0
+1744342048,Enfermería,tercero ,Mujer,9.3,9.7,8.3,0.020424334557325622,0
+1783201707,Industrial,tercero ,Mujer,8.8,8.9,7.7,0.043234191552564624,0
+1767582935,Enfermería,tercero ,Hombre,9.4,8.8,8.2,0.009337701100139303,0
+1774253823,Mecatrónica,tercero ,Mujer,9.1,9.9,9.3,0.03287618039102001,0
+1766352517,Salud Reproductiva y Partería,noveno ,Mujer,9.6,9.6,9.2,0.0006698564593301435,0
+1716807655,Criminalística y Ciencias Forenses,tercero ,Mujer,9.4,9.7,8.7,0.02341933485606539,0
+1758105972,Industrial,undécimo ,Mujer,9.6,8.9,8.9,0.002106423437196092,0
+1790802723,Contaduría,primero ,Mujer,9.0,9.8,9.6,0.665256185419402,1
+1770500730,Diseño Digital y Producción Audiovisual,noveno ,Mujer,9.6,8.0,8.8,0.01732140861075914,0
+1796440958,Enfermería,cuarto ,Mujer,9.7,9.8,8.8,0.03718674140616863,0
+1787408074,Terapia Física,sexto ,Mujer,9.2,9.1,7.6,0.03756875616699377,0
+1726686207,Médico Cirujano y Partero,noveno ,Hombre,9.0,9.2,7.9,0.011780807650284473,0
+1727740969,Criminalística y Ciencias Forenses,quinto ,Mujer,9.0,8.6,8.5,0.026696895056086134,0
+1747866031,Contaduría,tercero ,Hombre,9.6,8.1,8.0,0.015194931675653963,0
+1711303142,Contaduría,segundo ,Mujer,9.9,9.2,7.9,0.7956808995162952,1
+1773009286,Contaduría,tercero ,Mujer,8.9,9.5,8.0,0.0690864888103037,0
+1718912912,Enfermería,sexto ,Mujer,8.9,9.6,7.7,0.039850465237064266,0
+1758862354,Criminalística y Ciencias Forenses,tercero ,Mujer,9.5,9.5,8.1,0.013952154558478768,0
+1715271082,Mecatrónica,undécimo ,Mujer,9.0,9.4,8.7,0.00038357207472251934,0
+1706944086,Terapia Física,noveno ,Mujer,9.5,8.6,9.5,0.008431063593146463,0
+1778545132,Terapia Física,undécimo ,Hombre,9.4,9.6,8.9,0.00163960661548491,0
+1768459122,Enfermería,sexto ,Mujer,9.2,8.6,8.8,0.0012860694164234087,0
+1786798530,Diseño Digital y Producción Audiovisual,sexto ,Mujer,9.4,9.8,7.6,0.06194148593929181,0
+1776174634,Innovación de Negocios y Mercadotecnia,tercero ,Hombre,9.3,9.1,8.6,0.009343927755859729,0
+1770032912,Enfermería,sexto ,Mujer,9.2,9.1,8.5,0.0030392487134945066,0
+1700547137,Terapia Física,segundo ,Mujer,8.7,9.7,8.7,0.6681114031408487,1
+1750301477,Criminalística y Ciencias Forenses,sexto ,Mujer,9.3,9.8,8.3,0.00618032967124293,0
+1723959215,Mecatrónica,primero ,Hombre,9.7,9.6,9.4,0.7680244964999393,1
+1749494942,Negocios y Mercadotecnia,primero ,Mujer,8.7,8.7,8.5,0.5703200905454963,1
+1765318030,Diseño Digital y Producción Audiovisual,sexto ,Mujer,8.9,9.6,8.6,0.0003000536824066236,0
+1753448015,Salud Reproductiva y Partería,undécimo ,Mujer,9.4,8.7,7.4,0.012372282742628346,0
+1746229129,Contaduría,tercero ,Hombre,9.2,9.6,8.4,0.019863423130069616,0
+1704463207,Tecnologías de la Información e Innovación Digital,tercero ,Mujer,9.4,8.3,9.1,0.006892989940579539,0
+1721320217,Industrial,tercero ,Hombre,9.0,9.1,8.8,0.02495461920938727,0
+1758792464,Terapia Física,noveno ,Mujer,9.6,8.7,7.3,0.024542480968213133,0
+1774043524,Terapia Física,sexto ,Hombre,9.2,9.7,8.2,0.014678305548604649,0
+1715545640,Enfermería,noveno ,Hombre,9.4,9.8,9.4,0.003944348049611208,0
+1773895022,Criminalística y Ciencias Forenses,noveno ,Mujer,9.3,9.3,8.4,0.0068201496051143885,0
+1793569350,Energías Renovables,sexto ,Mujer,9.3,9.3,8.7,0.005378077539749142,0
+1776821024,Diseño Digital y Producción Audiovisual,undécimo ,Mujer,9.4,9.6,9.4,0.0026077428866283356,0
+1712362873,Terapia Física,undécimo ,Mujer,9.3,9.8,8.4,0.0002734014074991144,0
+1700007252,Salud Reproductiva y Partería,tercero ,Hombre,8.9,9.2,8.9,0.0185506972209748,0
+1746155259,Contaduría,tercero ,Mujer,9.6,8.9,8.7,0.001440581311034854,0
+1794187278,Enfermería,undécimo ,Mujer,9.5,9.6,8.8,0.0,0
+1722179076,Criminalística y Ciencias Forenses,sexto ,Mujer,8.6,8.1,8.7,0.000821124239169352,0

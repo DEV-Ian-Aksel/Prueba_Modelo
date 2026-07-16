@@ -30,6 +30,27 @@ df_procesado = df.drop(columns=cols_a_quitar).copy()
 
 print(f"Columnas eliminadas: {cols_a_quitar}")
 
+orden_grado = {
+    'primero':        1,
+    'segundo':        2,
+    'tercero':        3,
+    'cuarto':         4,
+    'quinto':         5,
+    'sexto':          6,
+    'séptimo':        7,
+    'octavo':         8,
+    'noveno':         9,
+    'décimo':         10,
+    'undécimo':       11,
+    'duodécimo':      12,
+    'décimo tercero': 13
+}
+
+df_procesado['Grado'] = df_procesado['Grado'].str.strip().str.lower().map(orden_grado)
+
+columnas_texto = df_procesado.select_dtypes(include=['object']).columns.tolist()
+print(f"\nColumnas de texto a codificar: {columnas_texto}")
+
 # ── Codificar las mismas columnas de texto que se codificaron en entrenamiento ──
 for col, le in label_encoders.items():
     if col in df_procesado.columns:
